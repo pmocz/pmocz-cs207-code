@@ -1,0 +1,5441 @@
+15 30 16
+Triangle 0 @0
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.75 hu=0 hv=0
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=7.50822
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.5  hu=0 hv=0
+    Edge flux h=0.129458 hu=6.51223 hv=0
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=-0 hu=-7.50822 hv=-7.50822
+
+Triangle 1 @0
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25 hu=0 hv=0
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.25  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=3.83072
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0.0924701 hu=3.14119 hv=0
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.5  hu=0 hv=0
+    Edge flux h=-0.110964 hu=-4.67348 hv=-4.67348
+
+Triangle 2 @0
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=2.45166
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=2.45166 hv=0
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=-0 hu=-2.45166 hv=-2.45166
+
+Triangle 3 @0
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=2.45166
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=2.45166 hv=-2.45166
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=-0 hu=-2.45166 hv=-0
+
+Triangle 4 @0
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.75 hu=0 hv=0
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=0 hu=7.50822 hv=7.50822
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=0 hu=0 hv=-7.50822
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Boundary flux h=0 hu=-7.50822 hv=0
+
+Triangle 5 @0
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.5 hu=0 hv=0
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.25  hu=0 hv=0
+    Edge flux h=0.110964 hu=4.67348 hv=4.67348
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.25  hu=0 hv=0
+    Edge flux h=0.110964 hu=0 hv=-4.67348
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=-0.129458 hu=-6.51223 hv=-0
+
+Triangle 6 @0
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=2.45166 hv=2.45166
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.25  hu=0 hv=0
+    Edge flux h=-0.0924701 hu=-3.14119 hv=-0
+
+Triangle 7 @0
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=0 hu=2.45166 hv=0
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=-2.45166 hv=2.45166
+
+Triangle 8 @0
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.75 hu=0 hv=0
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=0 hu=0 hv=7.50822
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=0 hu=7.50822 hv=-7.50822
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Boundary flux h=0 hu=-7.50822 hv=0
+
+Triangle 9 @0
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25 hu=0 hv=0
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.5  hu=0 hv=0
+    Edge flux h=-0.110964 hu=0 hv=4.67348
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0.0924701 hu=3.14119 hv=0
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.5  hu=0 hv=0
+    Edge flux h=-0.110964 hu=-4.67348 hv=-4.67348
+
+Triangle 10 @0
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=0 hv=2.45166
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=2.45166 hv=0
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=-0 hu=-2.45166 hv=-2.45166
+
+Triangle 11 @0
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=0 hv=2.45166
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=0 hu=2.45166 hv=0
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=-0 hu=-2.45166 hv=-2.45166
+
+Triangle 12 @0
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.75 hu=0 hv=0
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.5  hu=0 hv=0
+    Edge flux h=0.129458 hu=6.51223 hv=0
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=-7.50822
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=0 hu=-7.50822 hv=7.50822
+
+Triangle 13 @0
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.5 hu=0 hv=0
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.25  hu=0 hv=0
+    Edge flux h=0.110964 hu=4.67348 hv=4.67348
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.5  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=-5.51624
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Edge flux h=-0.129458 hu=-6.51223 hv=-0
+
+Triangle 14 @0
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=2.45166 hv=2.45166
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.25  hu=0 hv=0
+    Edge flux h=-0.0924701 hu=-3.14119 hv=-0
+
+Triangle 15 @0
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=0 hv=0
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=0 hu=2.45166 hv=2.45166
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Edge flux h=-0 hu=-2.45166 hv=-0
+
+Triangle 0 @0.0301738
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.71875 hu=0.240422 hv=-4.44089e-16
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.71875  hu=0 hv=0
+    Boundary flux h=-1.11022e-16 hu=0.13075 hv=7.24246
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.47768  hu=0.443857 hv=2.22045e-16
+    Edge flux h=0.302172 hu=6.22898 hv=-3.61121e-16
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.75  hu=-4.44089e-16 hv=4.44089e-16
+    Edge flux h=-0.0771003 hu=-7.253 hv=-7.37534
+
+Triangle 1 @0.0301738
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25446 hu=0.36988 hv=0.203434
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.25446  hu=0 hv=0
+    Boundary flux h=0.0508586 hu=0.179905 hv=3.95708
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.02232  hu=0.166446 hv=1.11022e-16
+    Edge flux h=0.237581 hu=3.33497 hv=0.105696
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.47768  hu=0.443857 hv=2.22045e-16
+    Edge flux h=-0.367904 hu=-4.71895 hv=-4.52541
+
+Triangle 2 @0.0301738
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=2.22045e-16 hv=-1.11022e-16
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=-2.77556e-17 hu=6.5704e-17 hv=2.45166
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1  hu=-2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0 hu=2.45166 hv=0
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.02232  hu=0.166446 hv=1.11022e-16
+    Edge flux h=-0.0490763 hu=-2.56944 hv=-2.507
+
+Triangle 3 @0.0301738
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=-2.22045e-16 hv=-1.11022e-16
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=-2.77556e-17 hu=-6.5704e-17 hv=2.45166
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=1.11022e-16
+    Edge flux h=0 hu=2.45166 hv=-2.45166
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0 hu=-2.45166 hv=0
+
+Triangle 4 @0.0301738
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.75 hu=-4.44089e-16 hv=4.44089e-16
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.71875  hu=0.240422 hv=-4.44089e-16
+    Edge flux h=0.0771003 hu=7.253 hv=7.37534
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.75  hu=-4.44089e-16 hv=-4.44089e-16
+    Edge flux h=0 hu=0 hv=-7.50822
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Boundary flux h=1.11022e-16 hu=-7.50822 hv=2.29964e-16
+
+Triangle 5 @0.0301738
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.47768 hu=0.443857 hv=2.22045e-16
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.25446  hu=0.36988 hv=0.203434
+    Edge flux h=0.367904 hu=4.71895 hv=4.52541
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.28125  hu=0.36988 hv=-2.22045e-16
+    Edge flux h=0.0999778 hu=0.0376522 hv=-4.68897
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.71875  hu=0.240422 hv=-4.44089e-16
+    Edge flux h=-0.302172 hu=-6.22898 hv=3.61121e-16
+
+Triangle 6 @0.0301738
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.02232 hu=0.166446 hv=1.11022e-16
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0.0490763 hu=2.56944 hv=2.507
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0.00746472 hu=0.0556628 hv=-2.507
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.25446  hu=0.36988 hv=0.203434
+    Edge flux h=-0.237581 hu=-3.33497 hv=-0.105696
+
+Triangle 7 @0.0301738
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=2.22045e-16 hv=1.11022e-16
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=5.55112e-17 hu=2.45166 hv=3.2852e-17
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=-2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0 hu=-2.45166 hv=2.45166
+
+Triangle 8 @0.0301738
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.75 hu=-4.44089e-16 hv=-4.44089e-16
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.75  hu=-4.44089e-16 hv=4.44089e-16
+    Edge flux h=0 hu=0 hv=7.50822
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.71875  hu=0.240422 hv=4.44089e-16
+    Edge flux h=0.0771003 hu=7.253 hv=-7.37534
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.75  hu=0 hv=0
+    Boundary flux h=1.11022e-16 hu=-7.50822 hv=-2.29964e-16
+
+Triangle 9 @0.0301738
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28125 hu=0.36988 hv=-2.22045e-16
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.47768  hu=0.443857 hv=2.22045e-16
+    Edge flux h=-0.0999778 hu=-0.0376522 hv=4.68897
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.02232  hu=0.166446 hv=1.11022e-16
+    Edge flux h=0.24889 hu=3.41716 hv=-1.59187e-16
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.50446  hu=0.443857 hv=0.203434
+    Edge flux h=-0.371164 hu=-4.90006 hv=-4.91529
+
+Triangle 10 @0.0301738
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=2.22045e-16 hv=-1.11022e-16
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.02232  hu=0.166446 hv=1.11022e-16
+    Edge flux h=-0.00746472 hu=-0.0556628 hv=2.507
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1  hu=-2.22045e-16 hv=1.11022e-16
+    Edge flux h=0 hu=2.45166 hv=-6.5704e-17
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.02232  hu=0.166446 hv=1.11022e-16
+    Edge flux h=-0.0490763 hu=-2.56944 hv=-2.507
+
+Triangle 11 @0.0301738
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=2.22045e-16 hv=-1.11022e-16
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=1.11022e-16
+    Edge flux h=0 hu=0 hv=2.45166
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=5.55112e-17 hu=2.45166 hv=-3.2852e-17
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=-2.22045e-16 hv=1.11022e-16
+    Edge flux h=0 hu=-2.45166 hv=-2.45166
+
+Triangle 12 @0.0301738
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.71875 hu=0.240422 hv=4.44089e-16
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.50446  hu=0.443857 hv=0.203434
+    Edge flux h=0.287605 hu=6.3263 hv=-0.0956296
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.71875  hu=0 hv=0
+    Boundary flux h=-1.11022e-16 hu=0.13075 hv=-7.24246
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.75  hu=-4.44089e-16 hv=-4.44089e-16
+    Edge flux h=-0.0771003 hu=-7.253 hv=7.37534
+
+Triangle 13 @0.0301738
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.50446 hu=0.443857 hv=0.203434
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.28125  hu=0.36988 hv=-2.22045e-16
+    Edge flux h=0.371164 hu=4.90006 hv=4.91529
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.50446  hu=0 hv=0
+    Boundary flux h=-0.0508586 hu=0.217391 hv=-5.44949
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.71875  hu=0.240422 hv=4.44089e-16
+    Edge flux h=-0.287605 hu=-6.3263 hv=0.0956296
+
+Triangle 14 @0.0301738
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.02232 hu=0.166446 hv=1.11022e-16
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0.0490763 hu=2.56944 hv=2.507
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.02232  hu=0 hv=0
+    Boundary flux h=-2.77556e-17 hu=0.0556628 hv=-2.56233
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.28125  hu=0.36988 hv=-2.22045e-16
+    Edge flux h=-0.24889 hu=-3.41716 hv=1.59187e-16
+
+Triangle 15 @0.0301738
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=-2.22045e-16 hv=1.11022e-16
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0 hu=2.45166 hv=2.45166
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=-2.77556e-17 hu=-6.5704e-17 hv=-2.45166
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1  hu=2.22045e-16 hv=-1.11022e-16
+    Edge flux h=0 hu=-2.45166 hv=6.5704e-17
+
+Triangle 0 @0.0603477
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.66442 hu=0.456049 hv=0.0320756
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.66442  hu=0 hv=0
+    Boundary flux h=0.00801889 hu=0.258385 hv=6.81
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.43768  hu=0.799273 hv=0.0394818
+    Edge flux h=0.441204 hu=5.87912 hv=0.00352413
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.73139  hu=0.0616078 hv=0.0320756
+    Edge flux h=-0.183072 hu=-6.88329 hv=-7.07338
+
+Triangle 1 @0.0603477
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27365 hu=0.660533 hv=0.31511
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.27365  hu=0 hv=0
+    Boundary flux h=0.0787774 hu=0.377325 hv=4.15703
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.06602  hu=0.337803 hv=0.025514
+    Edge flux h=0.355346 hu=3.65835 hv=0.190394
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.43768  hu=0.799273 hv=0.0394818
+    Edge flux h=-0.545604 hu=-4.84309 hv=-4.43371
+
+Triangle 2 @0.0603477
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.01185 hu=0.0284293 hv=0.0133574
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.01185  hu=0 hv=0
+    Boundary flux h=0.00333936 hu=0.00877444 hv=2.51422
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1  hu=-4.44089e-16 hv=-2.22045e-16
+    Edge flux h=0.0107246 hu=2.48976 hv=0.00417239
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.06602  hu=0.337803 hv=0.025514
+    Edge flux h=-0.12189 hu=-2.79488 hv=-2.65502
+
+Triangle 3 @0.0603477
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=-4.44089e-16 hv=-2.22045e-16
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=-5.55112e-17 hu=-1.31408e-16 hv=2.45166
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=4.44089e-16 hv=2.22045e-16
+    Edge flux h=0 hu=2.45166 hv=-2.45166
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.01185  hu=0.0284293 hv=0.0133574
+    Edge flux h=-0.0107246 hu=-2.48976 hv=-0.00417239
+
+Triangle 4 @0.0603477
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.73139 hu=0.0616078 hv=0.0320756
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.66442  hu=0.456049 hv=0.0320756
+    Edge flux h=0.183072 hu=6.88329 hv=7.07338
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.73139  hu=0.0616078 hv=-0.0320756
+    Edge flux h=0 hu=0 hv=-7.31615
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.73139  hu=0 hv=0
+    Boundary flux h=-0.0154019 hu=-7.31773 hv=0.0164693
+
+Triangle 5 @0.0603477
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.43768 hu=0.799273 hv=0.0394818
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.27365  hu=0.660533 hv=0.31511
+    Edge flux h=0.545604 hu=4.84309 hv=4.43371
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.3349  hu=0.736926 hv=0.0546302
+    Edge flux h=0.0341196 hu=0.0219431 hv=-4.7274
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.66442  hu=0.456049 hv=0.0320756
+    Edge flux h=-0.441204 hu=-5.87912 hv=-0.00352413
+
+Triangle 6 @0.0603477
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.06602 hu=0.337803 hv=0.025514
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.01185  hu=0.0284293 hv=0.0133574
+    Edge flux h=0.12189 hu=2.79488 hv=2.65502
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.01365  hu=0.0418658 hv=-2.22045e-16
+    Edge flux h=0.0135497 hu=0.110581 hv=-2.64301
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.27365  hu=0.660533 hv=0.31511
+    Edge flux h=-0.355346 hu=-3.65835 hv=-0.190394
+
+Triangle 7 @0.0603477
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=4.44089e-16 hv=2.22045e-16
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=1.11022e-16 hu=2.45166 hv=6.5704e-17
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=4.44089e-16 hv=-2.22045e-16
+    Edge flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=-4.44089e-16 hv=-2.22045e-16
+    Edge flux h=0 hu=-2.45166 hv=2.45166
+
+Triangle 8 @0.0603477
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.73139 hu=0.0616078 hv=-0.0320756
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.73139  hu=0.0616078 hv=0.0320756
+    Edge flux h=0 hu=0 hv=7.31615
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.66794  hu=0.432556 hv=-0.00899146
+    Edge flux h=0.169271 hu=6.9071 hv=-7.09889
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.73139  hu=0 hv=0
+    Boundary flux h=-0.0154019 hu=-7.31773 hv=-0.0164693
+
+Triangle 9 @0.0603477
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.3349 hu=0.736926 hv=0.0546302
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.43768  hu=0.799273 hv=0.0394818
+    Edge flux h=-0.0341196 hu=-0.0219431 hv=4.7274
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.07055  hu=0.357644 hv=0.0133574
+    Edge flux h=0.412454 hu=3.92003 hv=0.0303282
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.49657  hu=0.735663 hv=0.309301
+    Edge flux h=-0.552043 hu=-5.16684 hv=-5.13835
+
+Triangle 10 @0.0603477
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.01365 hu=0.0418658 hv=-2.22045e-16
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.06602  hu=0.337803 hv=0.025514
+    Edge flux h=-0.0135497 hu=-0.110581 hv=2.64301
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1  hu=-4.44089e-16 hv=2.06184e-16
+    Edge flux h=0.0146682 hu=2.49867 hv=-1.34124e-16
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.07055  hu=0.357644 hv=0.0133574
+    Edge flux h=-0.125155 hu=-2.81759 hv=-2.67074
+
+Triangle 11 @0.0603477
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=4.44089e-16 hv=-2.22045e-16
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=4.44089e-16 hv=2.22045e-16
+    Edge flux h=0 hu=0 hv=2.45166
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=1.11022e-16 hu=2.45166 hv=-6.5704e-17
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=-4.44089e-16 hv=2.06184e-16
+    Edge flux h=3.96508e-18 hu=-2.45166 hv=-2.45166
+
+Triangle 12 @0.0603477
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.66794 hu=0.432556 hv=-0.00899146
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.49657  hu=0.735663 hv=0.309301
+    Edge flux h=0.390539 hu=6.10005 hv=-0.145496
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.66794  hu=0 hv=0
+    Boundary flux h=0.00224787 hu=0.242334 hv=-6.82559
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.73139  hu=0.0616078 hv=-0.0320756
+    Edge flux h=-0.169271 hu=-6.9071 hv=7.09889
+
+Triangle 13 @0.0603477
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.49657 hu=0.735663 hv=0.309301
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.3349  hu=0.736926 hv=0.0546302
+    Edge flux h=0.552043 hu=5.16684 hv=5.13835
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.49657  hu=0 hv=0
+    Boundary flux h=-0.0773254 hu=0.384777 hv=-5.32927
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.66794  hu=0.432556 hv=-0.00899146
+    Edge flux h=-0.390539 hu=-6.10005 hv=0.145496
+
+Triangle 14 @0.0603477
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.07055 hu=0.357644 hv=0.0133574
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.01365  hu=0.0418658 hv=-2.22045e-16
+    Edge flux h=0.125155 hu=2.81759 hv=2.67074
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.07055  hu=0 hv=0
+    Boundary flux h=-0.00333936 hu=0.136764 hv=-2.80471
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.3349  hu=0.736926 hv=0.0546302
+    Edge flux h=-0.412454 hu=-3.92003 hv=-0.0303282
+
+Triangle 15 @0.0603477
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=-4.44089e-16 hv=2.06184e-16
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=4.44089e-16 hv=-2.22045e-16
+    Edge flux h=-3.96508e-18 hu=2.45166 hv=2.45166
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=-5.15461e-17 hu=-1.31408e-16 hv=-2.45166
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.01365  hu=0.0418658 hv=-2.22045e-16
+    Edge flux h=-0.0146682 hu=-2.49867 hv=1.34124e-16
+
+Triangle 0 @0.0905215
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.60017 hu=0.636073 hv=0.0948032
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.60017  hu=0 hv=0
+    Boundary flux h=0.0237008 hu=0.374812 hv=6.33348
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.40424  hu=1.04406 hv=0.111226
+    Edge flux h=0.537562 hu=5.56856 hv=0.0202446
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.69091  hu=0.166479 hv=0.0867032
+    Edge flux h=-0.298141 hu=-6.4528 hv=-6.65311
+
+Triangle 1 @0.0905215
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30056 hu=0.855437 hv=0.335939
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.30056  hu=0 hv=0
+    Boundary flux h=0.0839847 hu=0.527616 hv=4.35406
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.11911  hu=0.519544 hv=0.0685721
+    Edge flux h=0.443943 hu=3.9951 hv=0.21084
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.40424  hu=1.04406 hv=0.111226
+    Edge flux h=-0.64886 hu=-5.01443 hv=-4.45565
+
+Triangle 2 @0.0905215
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.03787 hu=0.0999644 hv=0.0463401
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.03787  hu=0 hv=0
+    Boundary flux h=0.011585 hu=0.0338932 hv=2.6566
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.00259  hu=0.00919605 hv=0.00100718
+    Edge flux h=0.03886 hu=2.58482 hv=0.0159824
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.11911  hu=0.519544 hv=0.0685721
+    Edge flux h=-0.218647 hu=-3.10846 hv=-2.87591
+
+Triangle 3 @0.0905215
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.00259 hu=0.00919605 hv=0.00100718
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.00259  hu=0 hv=0
+    Boundary flux h=0.000251794 hu=0.00274658 hv=2.46467
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1  hu=5.55112e-16 hv=3.33067e-16
+    Edge flux h=0.00281977 hu=2.46078 hv=-2.45771
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.03787  hu=0.0999644 hv=0.0463401
+    Edge flux h=-0.03886 hu=-2.58482 hv=-0.0159824
+
+Triangle 4 @0.0905215
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.69091 hu=0.166479 hv=0.0867032
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.60017  hu=0.636073 hv=0.0948032
+    Edge flux h=0.298141 hu=6.4528 hv=6.65311
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.69425  hu=0.160731 hv=-0.0805457
+    Edge flux h=-0.00329845 hu=0.00281155 hv=-6.93736
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.69091  hu=0 hv=0
+    Boundary flux h=-0.0416198 hu=-6.92597 hv=0.0436452
+
+Triangle 5 @0.0905215
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.40424 hu=1.04406 hv=0.111226
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.30056  hu=0.855437 hv=0.335939
+    Edge flux h=0.64886 hu=5.01443 hv=4.45565
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.37683  hu=1.04319 hv=0.14651
+    Edge flux h=-0.0479928 hu=-0.0479021 hv=-4.76824
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.60017  hu=0.636073 hv=0.0948032
+    Edge flux h=-0.537562 hu=-5.56856 hv=-0.0202446
+
+Triangle 6 @0.0905215
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.11911 hu=0.519544 hv=0.0685721
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.03787  hu=0.0999644 hv=0.0463401
+    Edge flux h=0.218647 hu=3.10846 hv=2.87591
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.04359  hu=0.145542 hv=0.00669396
+    Edge flux h=0.0137599 hu=0.153146 hv=-2.84463
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.30056  hu=0.855437 hv=0.335939
+    Edge flux h=-0.443943 hu=-3.9951 hv=-0.21084
+
+Triangle 7 @0.0905215
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=5.55112e-16 hv=3.33067e-16
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=1.38778e-16 hu=2.45166 hv=9.85559e-17
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=5.55112e-16 hv=-3.33067e-16
+    Edge flux h=0 hu=0 hv=-2.45166
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.00259  hu=0.00919605 hv=0.00100718
+    Edge flux h=-0.00281977 hu=-2.46078 hv=2.45771
+
+Triangle 8 @0.0905215
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.69425 hu=0.160731 hv=-0.0805457
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.69091  hu=0.166479 hv=0.0867032
+    Edge flux h=0.00329845 hu=-0.00281155 hv=6.93736
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.61398  hu=0.568872 hv=-0.0398421
+    Edge flux h=0.257942 hu=6.5402 hv=-6.74159
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.69425  hu=0 hv=0
+    Boundary flux h=-0.0401827 hu=-6.95641 hv=-0.0405998
+
+Triangle 9 @0.0905215
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.37683 hu=1.04319 hv=0.14651
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.40424  hu=1.04406 hv=0.111226
+    Edge flux h=0.0479928 hu=0.0479021 hv=4.76824
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.14071  hu=0.590749 hv=0.0530183
+    Edge flux h=0.548914 hu=4.46201 hv=0.090219
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.47625  hu=0.868051 hv=0.320266
+    Edge flux h=-0.653633 hu=-5.29111 hv=-5.19468
+
+Triangle 10 @0.0905215
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.04359 hu=0.145542 hv=0.00669396
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.11911  hu=0.519544 hv=0.0685721
+    Edge flux h=-0.0137599 hu=-0.153146 hv=2.84463
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.00354  hu=0.0113479 hv=3.00691e-16
+    Edge flux h=0.0526928 hu=2.6198 hv=0.00248486
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.14071  hu=0.590749 hv=0.0530183
+    Edge flux h=-0.242769 hu=-3.2194 hv=-2.95871
+
+Triangle 11 @0.0905215
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1 hu=5.55112e-16 hv=-3.33067e-16
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1  hu=5.55112e-16 hv=3.33067e-16
+    Edge flux h=0 hu=0 hv=2.45166
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1  hu=0 hv=0
+    Boundary flux h=1.38778e-16 hu=2.45166 hv=-9.85559e-17
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.00354  hu=0.0113479 hv=3.00691e-16
+    Edge flux h=-0.00389601 hu=-2.46378 hv=-2.46036
+
+Triangle 12 @0.0905215
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.61398 hu=0.568872 hv=-0.0398421
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.47625  hu=0.868051 hv=0.320266
+    Edge flux h=0.440849 hu=5.86513 hv=-0.169829
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.61398  hu=0 hv=0
+    Boundary flux h=0.00996053 hu=0.325595 hv=-6.40923
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.69425  hu=0.160731 hv=-0.0805457
+    Edge flux h=-0.257942 hu=-6.5402 hv=6.74159
+
+Triangle 13 @0.0905215
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.47625 hu=0.868051 hv=0.320266
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.37683  hu=1.04319 hv=0.14651
+    Edge flux h=0.653633 hu=5.29111 hv=5.19468
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.47625  hu=0 hv=0
+    Boundary flux h=-0.0800665 hu=0.467322 hv=-5.17053
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.61398  hu=0.568872 hv=-0.0398421
+    Edge flux h=-0.440849 hu=-5.86513 hv=0.169829
+
+Triangle 14 @0.0905215
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.14071 hu=0.590749 hv=0.0530183
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.04359  hu=0.145542 hv=0.00669396
+    Edge flux h=0.242769 hu=3.2194 hv=2.95871
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.14071  hu=0 hv=0
+    Boundary flux h=-0.0132546 hu=0.259356 hv=-3.16688
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.37683  hu=1.04319 hv=0.14651
+    Edge flux h=-0.548914 hu=-4.46201 hv=-0.090219
+
+Triangle 15 @0.0905215
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.00354 hu=0.0113479 hv=3.00691e-16
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1  hu=5.55112e-16 hv=-3.33067e-16
+    Edge flux h=0.00389601 hu=2.46378 hv=2.46036
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.00354  hu=0 hv=0
+    Boundary flux h=-7.51726e-17 hu=0.00339413 hv=-2.46905
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.04359  hu=0.145542 hv=0.00669396
+    Edge flux h=-0.0526928 hu=-2.6198 hv=-0.00248486
+
+Triangle 0 @0.120695
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.53666 hu=0.759044 hv=0.167073
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.53666  hu=0 hv=0
+    Boundary flux h=0.0417682 hu=0.461568 hv=5.89075
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.38896  hu=1.18939 hv=0.191567
+    Edge flux h=0.579698 hu=5.33804 hv=0.0462876
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.62979  hu=0.280019 hv=0.144782
+    Edge flux h=-0.39183 hu=-6.00499 hv=-6.1723
+
+Triangle 1 @0.120695
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.32975 hu=0.974131 hv=0.309568
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.32975  hu=0 hv=0
+    Boundary flux h=0.0773921 hu=0.62054 hv=4.53231
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.17017  hu=0.696605 hv=0.111916
+    Edge flux h=0.510052 hu=4.28879 hv=0.187756
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.38896  hu=1.18939 hv=0.191567
+    Edge flux h=-0.703282 hu=-5.19811 hv=-4.58079
+
+Triangle 2 @0.120695
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.07848 hu=0.218183 hv=0.0954202
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.07848  hu=0 hv=0
+    Boundary flux h=0.023855 hu=0.0842299 hv=2.8884
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.01123  hu=0.0384756 hv=0.00318545
+    Edge flux h=0.0886389 hu=2.7561 hv=0.0384235
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.17017  hu=0.696605 hv=0.111916
+    Edge flux h=-0.324588 hu=-3.47037 hv=-3.1385
+
+Triangle 3 @0.120695
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.01123 hu=0.0384756 hv=0.00318545
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.01123  hu=0 hv=0
+    Boundary flux h=0.000796362 hu=0.0118241 hv=2.508
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.00068  hu=0.00220104 hv=-0.00146101
+    Edge flux h=0.012971 hu=2.49247 hv=-2.47956
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.07848  hu=0.218183 hv=0.0954202
+    Edge flux h=-0.0886389 hu=-2.7561 hv=-0.0384235
+
+Triangle 4 @0.120695
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.62979 hu=0.280019 hv=0.144782
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.53666  hu=0.759044 hv=0.167073
+    Edge flux h=0.39183 hu=6.00499 hv=6.1723
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.64088  hu=0.261877 hv=-0.118002
+    Edge flux h=-0.0125766 hu=0.00810562 hv=-6.42267
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.62979  hu=0 hv=0
+    Boundary flux h=-0.0700049 hu=-6.37574 hv=0.0705238
+
+Triangle 5 @0.120695
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38896 hu=1.18939 hv=0.191567
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.32975  hu=0.974131 hv=0.309568
+    Edge flux h=0.703282 hu=5.19811 hv=4.58079
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.39052  hu=1.23177 hv=0.227671
+    Edge flux h=-0.105806 hu=-0.11841 hv=-4.77401
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.53666  hu=0.759044 hv=0.167073
+    Edge flux h=-0.579698 hu=-5.33804 hv=-0.0462876
+
+Triangle 6 @0.120695
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.17017 hu=0.696605 hv=0.111916
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.07848  hu=0.218183 hv=0.0954202
+    Edge flux h=0.324588 hu=3.47037 hv=3.1385
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.09279  hu=0.327248 hv=0.0336329
+    Edge flux h=0.000790458 hu=0.158297 hv=-3.10773
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.32975  hu=0.974131 hv=0.309568
+    Edge flux h=-0.510052 hu=-4.28879 hv=-0.187756
+
+Triangle 7 @0.120695
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.00068 hu=0.00220104 hv=-0.00146101
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.00068  hu=0 hv=0
+    Boundary flux h=0.00055026 hu=2.45566 hv=-0.000434148
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.00094  hu=0.00292622 hv=0.00209916
+    Edge flux h=-0.000236661 hu=-0.00021601 hv=-2.4567
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.01123  hu=0.0384756 hv=0.00318545
+    Edge flux h=-0.012971 hu=-2.49247 hv=2.47956
+
+Triangle 8 @0.120695
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.64088 hu=0.261877 hv=-0.118002
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.62979  hu=0.280019 hv=0.144782
+    Edge flux h=0.0125766 hu=-0.00810562 hv=6.42267
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.56742  hu=0.653233 hv=-0.0790772
+    Edge flux h=0.319806 hu=6.18119 hv=-6.35039
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.64088  hu=0 hv=0
+    Boundary flux h=-0.0654693 hu=-6.47307 hv=-0.0576965
+
+Triangle 9 @0.120695
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.39052 hu=1.23177 hv=0.227671
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.38896  hu=1.18939 hv=0.191567
+    Edge flux h=0.105806 hu=0.11841 hv=4.77401
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.21781  hu=0.828099 hv=0.125048
+    Edge flux h=0.624932 hu=4.85878 hv=0.137017
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.44421  hu=0.893805 hv=0.273442
+    Edge flux h=-0.690855 hu=-5.21562 hv=-5.07113
+
+Triangle 10 @0.120695
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.09279 hu=0.327248 hv=0.0336329
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.17017  hu=0.696605 hv=0.111916
+    Edge flux h=-0.000790458 hu=-0.158297 hv=3.10773
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.01532  hu=0.0481886 hv=0.00269899
+    Edge flux h=0.123731 hu=2.86023 hv=0.0144771
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.21781  hu=0.828099 hv=0.125048
+    Edge flux h=-0.393272 hu=-3.73039 hv=-3.35648
+
+Triangle 11 @0.120695
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.00094 hu=0.00292622 hv=0.00209916
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.00068  hu=0.00220104 hv=-0.00146101
+    Edge flux h=0.000236661 hu=0.00021601 hv=2.4567
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.00094  hu=0 hv=0
+    Boundary flux h=0.000731554 hu=2.45715 hv=0.000624699
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.01532  hu=0.0481886 hv=0.00269899
+    Edge flux h=-0.0184295 hu=-2.50643 hv=-2.49204
+
+Triangle 12 @0.120695
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.56742 hu=0.653233 hv=-0.0790772
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.44421  hu=0.893805 hv=0.273442
+    Edge flux h=0.459081 hu=5.63357 hv=-0.172851
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.56742  hu=0 hv=0
+    Boundary flux h=0.0197693 hu=0.379569 hv=-6.06924
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.64088  hu=0.261877 hv=-0.118002
+    Edge flux h=-0.319806 hu=-6.18119 hv=6.35039
+
+Triangle 13 @0.120695
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.44421 hu=0.893805 hv=0.273442
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.39052  hu=1.23177 hv=0.227671
+    Edge flux h=0.690855 hu=5.21562 hv=5.07113
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.44421  hu=0 hv=0
+    Boundary flux h=-0.0683606 hu=0.482333 hv=-4.96601
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.56742  hu=0.653233 hv=-0.0790772
+    Edge flux h=-0.459081 hu=-5.63357 hv=0.172851
+
+Triangle 14 @0.120695
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.21781 hu=0.828099 hv=0.125048
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.09279  hu=0.327248 hv=0.0336329
+    Edge flux h=0.393272 hu=3.73039 hv=3.35648
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.21781  hu=0 hv=0
+    Boundary flux h=-0.031262 hu=0.407735 hv=-3.57441
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.39052  hu=1.23177 hv=0.227671
+    Edge flux h=-0.624932 hu=-4.85878 hv=-0.137017
+
+Triangle 15 @0.120695
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.01532 hu=0.0481886 hv=0.00269899
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.00094  hu=0.00292622 hv=0.00209916
+    Edge flux h=0.0184295 hu=2.50643 hv=2.49204
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.01532  hu=0 hv=0
+    Boundary flux h=-0.000674747 hu=0.0148851 hv=-2.52652
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.09279  hu=0.327248 hv=0.0336329
+    Edge flux h=-0.123731 hu=-2.86023 hv=-0.0144771
+
+Triangle 0 @0.150869
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.48123 hu=0.80862 hv=0.223864
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.48123  hu=0 hv=0
+    Boundary flux h=0.055966 hu=0.49815 hv=5.51694
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.38467  hu=1.25175 hv=0.249382
+    Edge flux h=0.576924 hu=5.1493 hv=0.0705731
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.55514  hu=0.367559 hv=0.188194
+    Edge flux h=-0.439801 hu=-5.57283 hv=-5.68933
+
+Triangle 1 @0.150869
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35771 hu=1.04384 hv=0.275949
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.35771  hu=0 hv=0
+    Boundary flux h=0.0689874 hu=0.675113 hv=4.69782
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.21475  hu=0.855953 hv=0.149811
+    Edge flux h=0.560147 hu=4.53191 hv=0.154601
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.38467  hu=1.25175 hv=0.249382
+    Edge flux h=-0.722492 hu=-5.33603 hv=-4.7276
+
+Triangle 2 @0.150869
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.12967 hu=0.37027 hv=0.146517
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.12967  hu=0 hv=0
+    Boundary flux h=0.0366294 hu=0.163383 hv=3.19338
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.0293  hu=0.099258 hv=0.00559498
+    Edge flux h=0.158418 hu=3.00661 hv=0.0697538
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.21475  hu=0.855953 hv=0.149811
+    Edge flux h=-0.425207 hu=-3.84718 hv=-3.4227
+
+Triangle 3 @0.150869
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.0293 hu=0.099258 hv=0.00559498
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.0293  hu=0 hv=0
+    Boundary flux h=0.00139874 hu=0.0322324 hv=2.59926
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.00374  hu=0.0111399 hv=-0.0068757
+    Edge flux h=0.0361868 hu=2.56453 hv=-2.5296
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.12967  hu=0.37027 hv=0.146517
+    Edge flux h=-0.158418 hu=-3.00661 hv=-0.0697538
+
+Triangle 4 @0.150869
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.55514 hu=0.367559 hv=0.188194
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.48123  hu=0.80862 hv=0.223864
+    Edge flux h=0.439801 hu=5.57283 hv=5.68933
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.57645  hu=0.334289 hv=-0.121521
+    Edge flux h=-0.0278563 hu=0.0127844 hv=-5.85654
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.55514  hu=0 hv=0
+    Boundary flux h=-0.0918896 hu=-5.75804 hv=0.0876591
+
+Triangle 5 @0.150869
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38467 hu=1.25175 hv=0.249382
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.35771  hu=1.04384 hv=0.275949
+    Edge flux h=0.722492 hu=5.33603 hv=4.7276
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.3809  hu=1.28932 hv=0.266318
+    Edge flux h=-0.126482 hu=-0.142861 hv=-4.72284
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.48123  hu=0.80862 hv=0.223864
+    Edge flux h=-0.576924 hu=-5.1493 hv=-0.0705731
+
+Triangle 6 @0.150869
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.21475 hu=0.855953 hv=0.149811
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.12967  hu=0.37027 hv=0.146517
+    Edge flux h=0.425207 hu=3.84718 hv=3.4227
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.15805  hu=0.575507 hv=0.0901829
+    Edge flux h=-0.0302952 hu=0.109327 hv=-3.42792
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.35771  hu=1.04384 hv=0.275949
+    Edge flux h=-0.560147 hu=-4.53191 hv=-0.154601
+
+Triangle 7 @0.150869
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.00374 hu=0.0111399 hv=-0.0068757
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.00374  hu=0 hv=0
+    Boundary flux h=0.00278498 hu=2.47338 hv=-0.00207824
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.00516  hu=0.0147717 hv=0.0104794
+    Edge flux h=-0.00132795 hu=-0.00111207 hv=-2.47877
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.0293  hu=0.099258 hv=0.00559498
+    Edge flux h=-0.0361868 hu=-2.56453 hv=2.5296
+
+Triangle 8 @0.150869
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.57645 hu=0.334289 hv=-0.121521
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.55514  hu=0.367559 hv=0.188194
+    Edge flux h=0.0278563 hu=-0.0127844 hv=5.85654
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.52903  hu=0.693799 hv=-0.10522
+    Edge flux h=0.34055 hu=5.82367 hv=-5.94413
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.57645  hu=0 hv=0
+    Boundary flux h=-0.0835724 hu=-5.93627 hv=-0.0569373
+
+Triangle 9 @0.150869
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.3809 hu=1.28932 hv=0.266318
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.38467  hu=1.25175 hv=0.249382
+    Edge flux h=0.126482 hu=0.142861 hv=4.72284
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.28128  hu=1.00206 hv=0.210729
+    Edge flux h=0.637374 hu=5.03288 hv=0.139375
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.40477  hu=0.878264 hv=0.206341
+    Edge flux h=-0.675524 hu=-5.0229 hv=-4.83251
+
+Triangle 10 @0.150869
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.15805 hu=0.575507 hv=0.0901829
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.21475  hu=0.855953 hv=0.149811
+    Edge flux h=0.0302952 hu=-0.109327 hv=3.42792
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.0409  hu=0.129999 hv=0.0145178
+    Edge flux h=0.229399 hu=3.2493 hv=0.0459042
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.28128  hu=1.00206 hv=0.210729
+    Edge flux h=-0.539782 hu=-4.21905 hv=-3.78781
+
+Triangle 11 @0.150869
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.00516 hu=0.0147717 hv=0.0104794
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.00374  hu=0.0111399 hv=-0.0068757
+    Edge flux h=0.00132795 hu=0.00111207 hv=2.47877
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.00516  hu=0 hv=0
+    Boundary flux h=0.00369293 hu=2.4815 hv=0.00319126
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.0409  hu=0.129999 hv=0.0145178
+    Edge flux h=-0.0543351 hu=-2.6096 hv=-2.56858
+
+Triangle 12 @0.150869
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.52903 hu=0.693799 hv=-0.10522
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.40477  hu=0.878264 hv=0.206341
+    Edge flux h=0.464092 hu=5.39541 hv=-0.157889
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.52903  hu=0 hv=0
+    Boundary flux h=0.0263049 hu=0.404661 hv=-5.79321
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.57645  hu=0.334289 hv=-0.121521
+    Edge flux h=-0.34055 hu=-5.82367 hv=5.94413
+
+Triangle 13 @0.150869
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.40477 hu=0.878264 hv=0.206341
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.3809  hu=1.28932 hv=0.266318
+    Edge flux h=0.675524 hu=5.0229 hv=4.83251
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.40477  hu=0 hv=0
+    Boundary flux h=-0.0515853 hu=0.470091 hv=-4.7276
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.52903  hu=0.693799 hv=-0.10522
+    Edge flux h=-0.464092 hu=-5.39541 hv=0.157889
+
+Triangle 14 @0.150869
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28128 hu=1.00206 hv=0.210729
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.15805  hu=0.575507 hv=0.0901829
+    Edge flux h=0.539782 hu=4.21905 hv=3.78781
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.28128  hu=0 hv=0
+    Boundary flux h=-0.0526823 hu=0.529336 hv=-3.91352
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.3809  hu=1.28932 hv=0.266318
+    Edge flux h=-0.637374 hu=-5.03288 hv=-0.139375
+
+Triangle 15 @0.150869
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.0409 hu=0.129999 hv=0.0145178
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.00516  hu=0.0147717 hv=0.0104794
+    Edge flux h=0.0543351 hu=2.6096 hv=2.56858
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.0409  hu=0 hv=0
+    Boundary flux h=-0.00362945 hu=0.042799 hv=-2.65154
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.15805  hu=0.575507 hv=0.0901829
+    Edge flux h=-0.229399 hu=-3.2493 hv=-0.0459042
+
+Triangle 0 @0.181043
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.43462 hu=0.790607 hv=0.248443
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.43462  hu=0 hv=0
+    Boundary flux h=0.0621108 hu=0.481186 hv=5.19703
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.38006  hu=1.24116 hv=0.265268
+    Edge flux h=0.542752 hu=4.95809 hv=0.0831358
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.47788  hu=0.40918 hv=0.207397
+    Edge flux h=-0.438366 hu=-5.17049 hv=-5.2437
+
+Triangle 1 @0.181043
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38025 hu=1.07498 hv=0.24582
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.38025  hu=0 hv=0
+    Boundary flux h=0.061455 hu=0.698295 hv=4.8303
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.25463  hu=0.99485 hv=0.18839
+    Edge flux h=0.593462 hu=4.7199 hv=0.119957
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.38006  hu=1.24116 hv=0.265268
+    Edge flux h=-0.706689 hu=-5.37189 hv=-4.81359
+
+Triangle 2 @0.181043
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.18523 hu=0.533735 hv=0.185037
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.18523  hu=0 hv=0
+    Boundary flux h=0.0462593 hu=0.264017 hv=3.53557
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.05847  hu=0.198192 hv=0.00561805
+    Edge flux h=0.240739 hu=3.31764 hv=0.102843
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.25463  hu=0.99485 hv=0.18839
+    Edge flux h=-0.514488 hu=-4.22611 hv=-3.72596
+
+Triangle 3 @0.181043
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.05847 hu=0.198192 hv=0.00561805
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.05847  hu=0 hv=0
+    Boundary flux h=0.00140451 hu=0.0697658 hv=2.74871
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.01212  hu=0.0334107 hv=-0.0186433
+    Edge flux h=0.077411 hu=2.69632 hv=-2.62057
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.18523  hu=0.533735 hv=0.185037
+    Edge flux h=-0.240739 hu=-3.31764 hv=-0.102843
+
+Triangle 4 @0.181043
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.47788 hu=0.40918 hv=0.207397
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.43462  hu=0.790607 hv=0.248443
+    Edge flux h=0.438366 hu=5.17049 hv=5.2437
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.5077  hu=0.364555 hv=-0.0866344
+    Edge flux h=-0.0454431 hu=0.0137085 hv=-5.322
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.47788  hu=0 hv=0
+    Boundary flux h=-0.102295 hu=-5.17377 hv=0.0917347
+
+Triangle 5 @0.181043
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38006 hu=1.24116 hv=0.265268
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.38025  hu=1.07498 hv=0.24582
+    Edge flux h=0.706689 hu=5.37189 hv=4.81359
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.35957  hu=1.25243 hv=0.259148
+    Edge flux h=-0.118033 hu=-0.126511 hv=-4.62175
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.43462  hu=0.790607 hv=0.248443
+    Edge flux h=-0.542752 hu=-4.95809 hv=-0.0831358
+
+Triangle 6 @0.181043
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25463 hu=0.99485 hv=0.18839
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.18523  hu=0.533735 hv=0.185037
+    Edge flux h=0.514488 hu=4.22611 hv=3.72596
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.22566  hu=0.835986 hv=0.165977
+    Edge flux h=-0.0723162 hu=0.0235921 hv=-3.77119
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.38025  hu=1.07498 hv=0.24582
+    Edge flux h=-0.593462 hu=-4.7199 hv=-0.119957
+
+Triangle 7 @0.181043
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.01212 hu=0.0334107 hv=-0.0186433
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.01212  hu=0 hv=0
+    Boundary flux h=0.00835268 hu=2.52197 hv=-0.00587213
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.01706  hu=0.0454253 hv=0.0313868
+    Edge flux h=-0.00472412 hu=-0.0039378 hv=-2.53964
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.05847  hu=0.198192 hv=0.00561805
+    Edge flux h=-0.077411 hu=-2.69632 hv=2.62057
+
+Triangle 8 @0.181043
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.5077 hu=0.364555 hv=-0.0866344
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.47788  hu=0.40918 hv=0.207397
+    Edge flux h=0.0454431 hu=-0.0137085 hv=5.322
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.49286  hu=0.699496 hv=-0.103536
+    Edge flux h=0.321832 hu=5.45292 hv=-5.52941
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.5077  hu=0 hv=0
+    Boundary flux h=-0.0911387 hu=-5.4107 hv=-0.0385714
+
+Triangle 9 @0.181043
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35957 hu=1.25243 hv=0.259148
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.38006  hu=1.24116 hv=0.265268
+    Edge flux h=0.118033 hu=0.126511 hv=4.62175
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.31755  hu=1.07073 hv=0.274716
+    Edge flux h=0.607528 hu=5.01544 hv=0.105589
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.36618  hu=0.854708 hv=0.142903
+    Edge flux h=-0.631501 hu=-4.80491 hv=-4.57799
+
+Triangle 10 @0.181043
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.22566 hu=0.835986 hv=0.165977
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.25463  hu=0.99485 hv=0.18839
+    Edge flux h=0.0723162 hu=-0.0235921 hv=3.77119
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.08404  hu=0.274083 hv=0.045625
+    Edge flux h=0.351552 hu=3.73563 hv=0.0941006
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.31755  hu=1.07073 hv=0.274716
+    Edge flux h=-0.641356 hu=-4.55291 hv=-4.13802
+
+Triangle 11 @0.181043
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.01706 hu=0.0454253 hv=0.0313868
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.01212  hu=0.0334107 hv=-0.0186433
+    Edge flux h=0.00472412 hu=0.0039378 hv=2.53964
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.01706  hu=0 hv=0
+    Boundary flux h=0.0113563 hu=2.55068 hv=0.0101239
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.08404  hu=0.274083 hv=0.045625
+    Edge flux h=-0.124125 hu=-2.81493 hv=-2.7178
+
+Triangle 12 @0.181043
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.49286 hu=0.699496 hv=-0.103536
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.36618  hu=0.854708 hv=0.142903
+    Edge flux h=0.459223 hu=5.14892 hv=-0.127262
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.49286  hu=0 hv=0
+    Boundary flux h=0.0258839 hu=0.402367 hv=-5.52342
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.5077  hu=0.364555 hv=-0.0866344
+    Edge flux h=-0.321832 hu=-5.45292 hv=5.52941
+
+Triangle 13 @0.181043
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.36618 hu=0.854708 hv=0.142903
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.35957  hu=1.25243 hv=0.259148
+    Edge flux h=0.631501 hu=4.80491 hv=4.57799
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.36618  hu=0 hv=0
+    Boundary flux h=-0.0357258 hu=0.453303 hv=-4.50012
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.49286  hu=0.699496 hv=-0.103536
+    Edge flux h=-0.459223 hu=-5.14892 hv=0.127262
+
+Triangle 14 @0.181043
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31755 hu=1.07073 hv=0.274716
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.22566  hu=0.835986 hv=0.165977
+    Edge flux h=0.641356 hu=4.55291 hv=4.13802
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.31755  hu=0 hv=0
+    Boundary flux h=-0.0686791 hu=0.579245 hv=-4.10734
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.35957  hu=1.25243 hv=0.259148
+    Edge flux h=-0.607528 hu=-5.01544 hv=-0.105589
+
+Triangle 15 @0.181043
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.08404 hu=0.274083 hv=0.045625
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.01706  hu=0.0454253 hv=0.0313868
+    Edge flux h=0.124125 hu=2.81493 hv=2.7178
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.08404  hu=0 hv=0
+    Boundary flux h=-0.0114062 hu=0.0994002 hv=-2.86449
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.22566  hu=0.835986 hv=0.165977
+    Edge flux h=-0.351552 hu=-3.73563 hv=-0.0941006
+
+Triangle 0 @0.211217
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.39443 hu=0.725723 hv=0.23964
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.39443  hu=0 hv=0
+    Boundary flux h=0.05991 hu=0.425967 hv=4.90772
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.36898  hu=1.17181 hv=0.239027
+    Edge flux h=0.490193 hu=4.74891 hv=0.0827112
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.40773  hu=0.406663 hv=0.204153
+    Edge flux h=-0.40128 hu=-4.80891 hv=-4.85707
+
+Triangle 1 @0.211217
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.39274 hu=1.0638 hv=0.212831
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.39274  hu=0 hv=0
+    Boundary flux h=0.0532078 hu=0.683344 hv=4.89229
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.29115  hu=1.10835 hv=0.228263
+    Edge flux h=0.604415 hu=4.83543 hv=0.0803041
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.36898  hu=1.17181 hv=0.239027
+    Edge flux h=-0.657105 hu=-5.28792 hv=-4.80176
+
+Triangle 2 @0.211217
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.24015 hu=0.689302 hv=0.206171
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.24015  hu=0 hv=0
+    Boundary flux h=0.0515427 hu=0.372759 hv=3.88206
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.09756  hu=0.331331 hv=-0.000489562
+    Edge flux h=0.326342 hu=3.66145 hv=0.13178
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.29115  hu=1.10835 hv=0.228263
+    Edge flux h=-0.588291 hu=-4.5888 hv=-4.03824
+
+Triangle 3 @0.211217
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.09756 hu=0.331331 hv=-0.000489562
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.09756  hu=0 hv=0
+    Boundary flux h=-0.000122391 hu=0.128284 hv=2.95315
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.02993  hu=0.0764479 hv=-0.0367604
+    Edge flux h=0.137448 hu=2.90284 hv=-2.76398
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.24015  hu=0.689302 hv=0.206171
+    Edge flux h=-0.326342 hu=-3.66145 hv=-0.13178
+
+Triangle 4 @0.211217
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.40773 hu=0.406663 hv=0.204153
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.39443  hu=0.725723 hv=0.23964
+    Edge flux h=0.40128 hu=4.80891 hv=4.85707
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.44104  hu=0.357673 hv=-0.0272558
+    Edge flux h=-0.0606213 hu=0.0110593 hv=-4.86842
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.40773  hu=0 hv=0
+    Boundary flux h=-0.101666 hu=-4.68766 hv=0.0857364
+
+Triangle 5 @0.211217
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.36898 hu=1.17181 hv=0.239027
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.39274  hu=1.0638 hv=0.212831
+    Edge flux h=0.657105 hu=5.28792 hv=4.80176
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.33687  hu=1.17107 hv=0.223097
+    Edge flux h=-0.0955813 hu=-0.0995452 hv=-4.49801
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.39443  hu=0.725723 hv=0.23964
+    Edge flux h=-0.490193 hu=-4.74891 hv=-0.0827112
+
+Triangle 6 @0.211217
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29115 hu=1.10835 hv=0.228263
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.24015  hu=0.689302 hv=0.206171
+    Edge flux h=0.588291 hu=4.5888 hv=4.03824
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.27816  hu=1.03897 hv=0.231813
+    Edge flux h=-0.107308 hu=-0.0549178 hv=-4.06889
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.39274  hu=1.0638 hv=0.212831
+    Edge flux h=-0.604415 hu=-4.83543 hv=-0.0803041
+
+Triangle 7 @0.211217
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.02993 hu=0.0764479 hv=-0.0367604
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.02993  hu=0 hv=0
+    Boundary flux h=0.019112 hu=2.62655 hv=-0.0124735
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.04314  hu=0.108262 hv=0.0719482
+    Edge flux h=-0.0131986 hu=-0.011785 hv=-2.67197
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.09756  hu=0.331331 hv=-0.000489562
+    Edge flux h=-0.137448 hu=-2.90284 hv=2.76398
+
+Triangle 8 @0.211217
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.44104 hu=0.357673 hv=-0.0272558
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.40773  hu=0.406663 hv=0.204153
+    Edge flux h=0.0606213 hu=-0.0110593 hv=4.86842
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.45345  hu=0.675751 hv=-0.0742623
+    Edge flux h=0.276996 hu=5.07341 hv=-5.12101
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.44104  hu=0 hv=0
+    Boundary flux h=-0.0894183 hu=-4.93993 hv=-0.011521
+
+Triangle 9 @0.211217
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33687 hu=1.17107 hv=0.223097
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.36898  hu=1.17181 hv=0.239027
+    Edge flux h=0.0955813 hu=0.0995452 hv=4.49801
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.32597  hu=1.04256 hv=0.292798
+    Edge flux h=0.560106 hu=4.88642 hv=0.0635846
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.33322  hu=0.828324 hv=0.0933878
+    Edge flux h=-0.576727 hu=-4.6076 hv=-4.36432
+
+Triangle 10 @0.211217
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27816 hu=1.03897 hv=0.231813
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.29115  hu=1.10835 hv=0.228263
+    Edge flux h=0.107308 hu=0.0549178 hv=4.06889
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.14169  hu=0.472337 hv=0.103749
+    Edge flux h=0.456581 hu=4.18742 hv=0.131742
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.32597  hu=1.04256 hv=0.292798
+    Edge flux h=-0.67975 hu=-4.68072 hv=-4.3252
+
+Triangle 11 @0.211217
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.04314 hu=0.108262 hv=0.0719482
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.02993  hu=0.0764479 hv=-0.0367604
+    Edge flux h=0.0131986 hu=0.011785 hv=2.67197
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.04314  hu=0 hv=0
+    Boundary flux h=0.0270656 hu=2.70664 hv=0.0258392
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.14169  hu=0.472337 hv=0.103749
+    Edge flux h=-0.231329 hu=-3.15206 hv=-2.96152
+
+Triangle 12 @0.211217
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.45345 hu=0.675751 hv=-0.0742623
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.33322  hu=0.828324 hv=0.0933878
+    Edge flux h=0.441333 hu=4.89279 hv=-0.0852019
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.45345  hu=0 hv=0
+    Boundary flux h=0.0185656 hu=0.375732 hv=-5.22046
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.44104  hu=0.357673 hv=-0.0272558
+    Edge flux h=-0.276996 hu=-5.07341 hv=5.12101
+
+Triangle 13 @0.211217
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33322 hu=0.828324 hv=0.0933878
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.33687  hu=1.17107 hv=0.223097
+    Edge flux h=0.576727 hu=4.6076 hv=4.36432
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.33322  hu=0 hv=0
+    Boundary flux h=-0.0233469 hu=0.435053 hv=-4.30872
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.45345  hu=0.675751 hv=-0.0742623
+    Edge flux h=-0.441333 hu=-4.89279 hv=0.0852019
+
+Triangle 14 @0.211217
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.32597 hu=1.04256 hv=0.292798
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.27816  hu=1.03897 hv=0.231813
+    Edge flux h=0.67975 hu=4.68072 hv=4.3252
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.32597  hu=0 hv=0
+    Boundary flux h=-0.0731995 hu=0.557771 hv=-4.15383
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.33687  hu=1.17107 hv=0.223097
+    Edge flux h=-0.560106 hu=-4.88642 hv=-0.0635846
+
+Triangle 15 @0.211217
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.14169 hu=0.472337 hv=0.103749
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.04314  hu=0.108262 hv=0.0719482
+    Edge flux h=0.231329 hu=3.15206 hv=2.96152
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.14169  hu=0 hv=0
+    Boundary flux h=-0.0259373 hu=0.191797 hv=-3.1535
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.27816  hu=1.03897 hv=0.231813
+    Edge flux h=-0.456581 hu=-4.18742 hv=-0.131742
+
+Triangle 0 @0.241391
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.3585 hu=0.637381 hv=0.207447
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.3585  hu=0 hv=0
+    Boundary flux h=0.0518618 hu=0.354504 hv=4.63998
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.35176  hu=1.06573 hv=0.185671
+    Edge flux h=0.429789 hu=4.5321 hv=0.0738883
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.35004  hu=0.374725 hv=0.186196
+    Edge flux h=-0.347052 hu=-4.49845 hv=-4.53708
+
+Triangle 1 @0.241391
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.39262 hu=1.00808 hv=0.171592
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.39262  hu=0 hv=0
+    Boundary flux h=0.042898 hu=0.627945 hv=4.86161
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.32095  hu=1.18114 hv=0.255046
+    Edge flux h=0.591369 hu=4.85638 hv=0.0367571
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.35176  hu=1.06573 hv=0.185671
+    Edge flux h=-0.583451 hu=-5.11172 hv=-4.70496
+
+Triangle 2 @0.241391
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29094 hu=0.823174 hv=0.212061
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.29094  hu=0 hv=0
+    Boundary flux h=0.0530153 hu=0.47541 hv=4.20821
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.14318  hu=0.483486 hv=-0.0143441
+    Edge flux h=0.40593 hu=4.00944 hv=0.153747
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.32095  hu=1.18114 hv=0.255046
+    Edge flux h=-0.636308 hu=-4.88799 hv=-4.3201
+
+Triangle 3 @0.241391
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.14318 hu=0.483486 hv=-0.0143441
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.14318  hu=0 hv=0
+    Boundary flux h=-0.00358604 hu=0.205981 hv=3.19788
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.06168  hu=0.145984 hv=-0.0559582
+    Edge flux h=0.209921 hu=3.18814 hv=-2.97008
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.29094  hu=0.823174 hv=0.212061
+    Edge flux h=-0.40593 hu=-4.00944 hv=-0.153747
+
+Triangle 4 @0.241391
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35004 hu=0.374725 hv=0.186196
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.3585  hu=0.637381 hv=0.207447
+    Edge flux h=0.347052 hu=4.49845 hv=4.53708
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.38113  hu=0.328123 hv=0.0364984
+    Edge flux h=-0.0703008 hu=0.00683538 hv=-4.50873
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.35004  hu=0 hv=0
+    Boundary flux h=-0.0936813 hu=-4.31811 hv=0.074673
+
+Triangle 5 @0.241391
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35176 hu=1.06573 hv=0.185671
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.39262  hu=1.00808 hv=0.171592
+    Edge flux h=0.583451 hu=5.11172 hv=4.70496
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.31781  hu=1.07974 hv=0.175477
+    Edge flux h=-0.0700802 hu=-0.0808753 hv=-4.37486
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.3585  hu=0.637381 hv=0.207447
+    Edge flux h=-0.429789 hu=-4.5321 hv=-0.0738883
+
+Triangle 6 @0.241391
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.32095 hu=1.18114 hv=0.255046
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.29094  hu=0.823174 hv=0.212061
+    Edge flux h=0.636308 hu=4.88799 hv=4.3201
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.30613  hu=1.14479 hv=0.261882
+    Edge flux h=-0.12012 hu=-0.0920438 hv=-4.25983
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.39262  hu=1.00808 hv=0.171592
+    Edge flux h=-0.591369 hu=-4.85638 hv=-0.0367571
+
+Triangle 7 @0.241391
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.06168 hu=0.145984 hv=-0.0559582
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.06168  hu=0 hv=0
+    Boundary flux h=0.0364961 hu=2.81859 hv=-0.0211444
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.08926  hu=0.212938 hv=0.135605
+    Edge flux h=-0.0301068 hu=-0.0294532 hv=-2.91192
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.14318  hu=0.483486 hv=-0.0143441
+    Edge flux h=-0.209921 hu=-3.18814 hv=2.97008
+
+Triangle 8 @0.241391
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38113 hu=0.328123 hv=0.0364984
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.35004  hu=0.374725 hv=0.186196
+    Edge flux h=0.0703008 hu=-0.00683538 hv=4.50873
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.4093  hu=0.628654 hv=-0.0296893
+    Edge flux h=0.222753 hu=4.70643 hv=-4.73985
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.38113  hu=0 hv=0
+    Boundary flux h=-0.0820307 hu=-4.54399 hv=0.0147491
+
+Triangle 9 @0.241391
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31781 hu=1.07974 hv=0.175477
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.35176  hu=1.06573 hv=0.185671
+    Edge flux h=0.0700802 hu=0.0808753 hv=4.37486
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.31476  hu=0.957573 hv=0.26678
+    Edge flux h=0.511131 hu=4.71545 hv=0.0305759
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.30617  hu=0.792147 hv=0.0593989
+    Edge flux h=-0.519815 hu=-4.43649 hv=-4.20306
+
+Triangle 10 @0.241391
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30613 hu=1.14479 hv=0.261882
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.32095  hu=1.18114 hv=0.255046
+    Edge flux h=0.12012 hu=0.0920438 hv=4.25983
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.20232  hu=0.675967 hv=0.181892
+    Edge flux h=0.517997 hu=4.49279 hv=0.131349
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.31476  hu=0.957573 hv=0.26678
+    Edge flux h=-0.662976 hu=-4.62806 hv=-4.34576
+
+Triangle 11 @0.241391
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.08926 hu=0.212938 hv=0.135605
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.06168  hu=0.145984 hv=-0.0559582
+    Edge flux h=0.0301068 hu=0.0294532 hv=2.91192
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.08926  hu=0 hv=0
+    Boundary flux h=0.0532345 hu=2.998 hv=0.0567536
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.20232  hu=0.675967 hv=0.181892
+    Edge flux h=-0.356622 hu=-3.58942 hv=-3.29229
+
+Triangle 12 @0.241391
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.4093 hu=0.628654 hv=-0.0296893
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.30617  hu=0.792147 hv=0.0593989
+    Edge flux h=0.409755 hu=4.62974 hv=-0.0414342
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.4093  hu=0 hv=0
+    Boundary flux h=0.00742231 hu=0.332237 hv=-4.88498
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.38113  hu=0.328123 hv=0.0364984
+    Edge flux h=-0.222753 hu=-4.70643 hv=4.73985
+
+Triangle 13 @0.241391
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30617 hu=0.792147 hv=0.0593989
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.31781  hu=1.07974 hv=0.175477
+    Edge flux h=0.519815 hu=4.43649 hv=4.20306
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.30617  hu=0 hv=0
+    Boundary flux h=-0.0148497 hu=0.410053 hv=-4.152
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.4093  hu=0.628654 hv=-0.0296893
+    Edge flux h=-0.409755 hu=-4.62974 hv=0.0414342
+
+Triangle 14 @0.241391
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31476 hu=0.957573 hv=0.26678
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.30613  hu=1.14479 hv=0.261882
+    Edge flux h=0.662976 hu=4.62806 hv=4.34576
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.31476  hu=0 hv=0
+    Boundary flux h=-0.0666951 hu=0.497359 hv=-4.09933
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.31781  hu=1.07974 hv=0.175477
+    Edge flux h=-0.511131 hu=-4.71545 hv=-0.0305759
+
+Triangle 15 @0.241391
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.20232 hu=0.675967 hv=0.181892
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.08926  hu=0.212938 hv=0.135605
+    Edge flux h=0.356622 hu=3.58942 hv=3.29229
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.20232  hu=0 hv=0
+    Boundary flux h=-0.0454729 hu=0.303392 hv=-3.46244
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.30613  hu=1.14479 hv=0.261882
+    Edge flux h=-0.517997 hu=-4.49279 hv=-0.131349
+
+Triangle 0 @0.271565
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.32601 hu=0.543686 hv=0.164771
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.32601  hu=0 hv=0
+    Boundary flux h=0.0411928 hu=0.283919 hv=4.39681
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.33159  hu=0.945337 hv=0.123825
+    Edge flux h=0.369102 hu=4.32525 hv=0.0620273
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.30584  hu=0.329541 hv=0.161326
+    Edge flux h=-0.289927 hu=-4.24412 hv=-4.28118
+
+Triangle 1 @0.271565
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38035 hu=0.918134 hv=0.124906
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.38035  hu=0 hv=0
+    Boundary flux h=0.0312264 hu=0.54511 hv=4.74549
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.3391  hu=1.19573 hv=0.249371
+    Edge flux h=0.554079 hu=4.78106 hv=-0.000833269
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.33159  hu=0.945337 hv=0.123825
+    Edge flux h=-0.5002 hu=-4.88795 hv=-4.55704
+
+Triangle 2 @0.271565
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33375 hu=0.920488 hv=0.201956
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.33375  hu=0 hv=0
+    Boundary flux h=0.0504889 hu=0.553941 hv=4.48278
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.19136  hu=0.63202 hv=-0.0322215
+    Edge flux h=0.468425 hu=4.32582 hv=0.162632
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.3391  hu=1.19573 hv=0.249371
+    Edge flux h=-0.645206 hu=-5.0659 hv=-4.51796
+
+Triangle 3 @0.271565
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.19136 hu=0.63202 hv=-0.0322215
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.19136  hu=0 hv=0
+    Boundary flux h=-0.00805537 hu=0.293164 hv=3.46481
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.11081  hu=0.242299 hv=-0.0648919
+    Edge flux h=0.280767 hu=3.54069 hv=-3.24604
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.33375  hu=0.920488 hv=0.201956
+    Edge flux h=-0.468425 hu=-4.32582 hv=-0.162632
+
+Triangle 4 @0.271565
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30584 hu=0.329541 hv=0.161326
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.32601  hu=0.543686 hv=0.164771
+    Edge flux h=0.289927 hu=4.24412 hv=4.28118
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.33019  hu=0.290561 hv=0.0887292
+    Edge flux h=-0.0734561 hu=0.00249708 hv=-4.23315
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.30584  hu=0 hv=0
+    Boundary flux h=-0.0823853 hu=-4.05332 hv=0.0623324
+
+Triangle 5 @0.271565
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33159 hu=0.945337 hv=0.123825
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.38035  hu=0.918134 hv=0.124906
+    Edge flux h=0.5002 hu=4.88795 hv=4.55704
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.30299  hu=0.992873 hv=0.126625
+    Edge flux h=-0.0463387 hu=-0.0731501 hv=-4.26228
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.32601  hu=0.543686 hv=0.164771
+    Edge flux h=-0.369102 hu=-4.32525 hv=-0.0620273
+
+Triangle 6 @0.271565
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.3391 hu=1.19573 hv=0.249371
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.33375  hu=0.920488 hv=0.201956
+    Edge flux h=0.645206 hu=5.0659 hv=4.51796
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.31213  hu=1.15522 hv=0.250919
+    Edge flux h=-0.10833 hu=-0.0857465 hv=-4.33319
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.38035  hu=0.918134 hv=0.124906
+    Edge flux h=-0.554079 hu=-4.78106 hv=0.000833269
+
+Triangle 7 @0.271565
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.11081 hu=0.242299 hv=-0.0648919
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.11081  hu=0 hv=0
+    Boundary flux h=0.0605746 hu=3.12924 hv=-0.0278868
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.15523  hu=0.348592 hv=0.213723
+    Edge flux h=-0.0557525 hu=-0.0569632 hv=-3.27565
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.19136  hu=0.63202 hv=-0.0322215
+    Edge flux h=-0.280767 hu=-3.54069 hv=3.24604
+
+Triangle 8 @0.271565
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33019 hu=0.290561 hv=0.0887292
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.30584  hu=0.329541 hv=0.161326
+    Edge flux h=0.0734561 hu=-0.00249708 hv=4.23315
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.36237  hu=0.566968 hv=0.0153467
+    Edge flux h=0.172269 hu=4.37434 hv=-4.40256
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.33019  hu=0 hv=0
+    Boundary flux h=-0.0726402 hu=-4.22456 hv=0.0346358
+
+Triangle 9 @0.271565
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30299 hu=0.992873 hv=0.126625
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.33159  hu=0.945337 hv=0.123825
+    Edge flux h=0.0463387 hu=0.0731501 hv=4.26228
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.2942  hu=0.858611 hv=0.214676
+    Edge flux h=0.467872 hu=4.54236 hv=0.00962016
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.28319  hu=0.739814 hv=0.0370711
+    Edge flux h=-0.462829 hu=-4.28085 hv=-4.08146
+
+Triangle 10 @0.271565
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31213 hu=1.15522 hv=0.250919
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.3391  hu=1.19573 hv=0.249371
+    Edge flux h=0.10833 hu=0.0857465 hv=4.33319
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.25225  hu=0.820797 hv=0.254669
+    Edge flux h=0.530395 hu=4.62479 hv=0.0946797
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.2942  hu=0.858611 hv=0.214676
+    Edge flux h=-0.60896 hu=-4.47094 hv=-4.25341
+
+Triangle 11 @0.271565
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.15523 hu=0.348592 hv=0.213723
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.11081  hu=0.242299 hv=-0.0648919
+    Edge flux h=0.0557525 hu=0.0569632 hv=3.27565
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.15523  hu=0 hv=0
+    Boundary flux h=0.0871481 hu=3.44372 hv=0.105355
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.25225  hu=0.820797 hv=0.254669
+    Edge flux h=-0.460859 hu=-4.02708 hv=-3.6606
+
+Triangle 12 @0.271565
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.36237 hu=0.566968 hv=0.0153467
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.28319  hu=0.739814 hv=0.0370711
+    Edge flux h=0.367339 hu=4.37051 hv=-0.0042119
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.36237  hu=0 hv=0
+    Boundary flux h=-0.00383668 hu=0.281996 hv=-4.54275
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.33019  hu=0.290561 hv=0.0887292
+    Edge flux h=-0.172269 hu=-4.37434 hv=4.40256
+
+Triangle 13 @0.271565
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28319 hu=0.739814 hv=0.0370711
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.30299  hu=0.992873 hv=0.126625
+    Edge flux h=0.462829 hu=4.28085 hv=4.08146
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.28319  hu=0 hv=0
+    Boundary flux h=-0.00926777 hu=0.374429 hv=-4.01809
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.36237  hu=0.566968 hv=0.0153467
+    Edge flux h=-0.367339 hu=-4.37051 hv=0.0042119
+
+Triangle 14 @0.271565
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2942 hu=0.858611 hv=0.214676
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.31213  hu=1.15522 hv=0.250919
+    Edge flux h=0.60896 hu=4.47094 hv=4.25341
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.2942  hu=0 hv=0
+    Boundary flux h=-0.0536689 hu=0.431559 hv=-3.99853
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.30299  hu=0.992873 hv=0.126625
+    Edge flux h=-0.467872 hu=-4.54236 hv=-0.00962016
+
+Triangle 15 @0.271565
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25225 hu=0.820797 hv=0.254669
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.15523  hu=0.348592 hv=0.213723
+    Edge flux h=0.460859 hu=4.02708 hv=3.6606
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.25225  hu=0 hv=0
+    Boundary flux h=-0.0636674 hu=0.393203 hv=-3.72255
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.31213  hu=1.15522 hv=0.250919
+    Edge flux h=-0.530395 hu=-4.62479 hv=-0.0946797
+
+Triangle 0 @0.301738
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29695 hu=0.455566 hv=0.121887
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.29695  hu=0 hv=0
+    Boundary flux h=0.0304717 hu=0.223006 hv=4.18358
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.31113  hu=0.827166 hv=0.0676449
+    Edge flux h=0.313072 hu=4.14013 hv=0.0505021
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.27348  hu=0.282881 hv=0.134684
+    Edge flux h=-0.237814 hu=-4.04337 hv=-4.08051
+
+Triangle 1 @0.301738
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35981 hu=0.81235 hv=0.0796178
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.35981  hu=0 hv=0
+    Boundary flux h=0.0199045 hu=0.45505 hv=4.57792
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.34325  hu=1.14767 hv=0.204569
+    Edge flux h=0.500112 hu=4.64028 hv=-0.020669
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.31113  hu=0.827166 hv=0.0676449
+    Edge flux h=-0.420136 hu=-4.65635 hv=-4.39199
+
+Triangle 2 @0.301738
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.36424 hu=0.96542 hv=0.171191
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.36424  hu=0 hv=0
+    Boundary flux h=0.0427979 hu=0.588213 hv=4.66719
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.23861  hu=0.750775 hv=-0.0457733
+    Edge flux h=0.501652 hu=4.57066 hv=0.148736
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.34325  hu=1.14767 hv=0.204569
+    Edge flux h=-0.609405 hu=-5.09439 hv=-4.60075
+
+Triangle 3 @0.301738
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23861 hu=0.750775 hv=-0.0457733
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.23861  hu=0 hv=0
+    Boundary flux h=-0.0114433 hu=0.372475 hv=3.7385
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.17742  hu=0.355369 hv=-0.0510115
+    Edge flux h=0.331652 hu=3.93119 hv=-3.58912
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.36424  hu=0.96542 hv=0.171191
+    Edge flux h=-0.501652 hu=-4.57066 hv=-0.148736
+
+Triangle 4 @0.301738
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27348 hu=0.282881 hv=0.134684
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.29695  hu=0.455566 hv=0.121887
+    Edge flux h=0.237814 hu=4.04337 hv=4.08051
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.28841  hu=0.255008 hv=0.121263
+    Edge flux h=-0.0704237 hu=-0.00146293 hv=-4.02349
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.27348  hu=0 hv=0
+    Boundary flux h=-0.0707204 hu=-3.86972 hv=0.0505857
+
+Triangle 5 @0.301738
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31113 hu=0.827166 hv=0.0676449
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.35981  hu=0.81235 hv=0.0796178
+    Edge flux h=0.420136 hu=4.65635 hv=4.39199
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.29059  hu=0.912089 hv=0.0806538
+    Edge flux h=-0.0257901 hu=-0.0715755 hv=-4.1583
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.29695  hu=0.455566 hv=0.121887
+    Edge flux h=-0.313072 hu=-4.14013 hv=-0.0505021
+
+Triangle 6 @0.301738
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.34325 hu=1.14767 hv=0.204569
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.36424  hu=0.96542 hv=0.171191
+    Edge flux h=0.609405 hu=5.09439 hv=4.60075
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.30494  hu=1.09738 hv=0.208804
+    Edge flux h=-0.0799655 hu=-0.0569018 hv=-4.31796
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.35981  hu=0.81235 hv=0.0796178
+    Edge flux h=-0.500112 hu=-4.64028 hv=0.020669
+
+Triangle 7 @0.301738
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.17742 hu=0.355369 hv=-0.0510115
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.17742  hu=0 hv=0
+    Boundary flux h=0.0888424 hu=3.57264 hv=-0.0249544
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.23198  hu=0.475662 hv=0.281214
+    Edge flux h=-0.0829042 hu=-0.0791946 hv=-3.73092
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.23861  hu=0.750775 hv=-0.0457733
+    Edge flux h=-0.331652 hu=-3.93119 hv=3.58912
+
+Triangle 8 @0.301738
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28841 hu=0.255008 hv=0.121263
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.27348  hu=0.282881 hv=0.134684
+    Edge flux h=0.0704237 hu=0.00146293 hv=4.02349
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.3162  hu=0.499821 hv=0.0502043
+    Edge flux h=0.132593 hu=4.09112 hv=-4.11719
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.28841  hu=0 hv=0
+    Boundary flux h=-0.0637521 hu=-3.97279 hv=0.0461072
+
+Triangle 9 @0.301738
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29059 hu=0.912089 hv=0.0806538
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.31113  hu=0.827166 hv=0.0676449
+    Edge flux h=0.0257901 hu=0.0715755 hv=4.1583
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.2731  hu=0.771677 hv=0.155472
+    Edge flux h=0.430549 hu=4.38379 hv=-0.00329545
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.26238  hu=0.671074 hv=0.0207563
+    Edge flux h=-0.405645 hu=-4.13017 hv=-3.98068
+
+Triangle 10 @0.301738
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30494 hu=1.09738 hv=0.208804
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.34325  hu=1.14767 hv=0.204569
+    Edge flux h=0.0799655 hu=0.0569018 hv=4.31796
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.28441  hu=0.870163 hv=0.29248
+    Edge flux h=0.504065 hu=4.62254 hv=0.0438118
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.2731  hu=0.771677 hv=0.155472
+    Edge flux h=-0.539448 hu=-4.29619 hv=-4.12317
+
+Triangle 11 @0.301738
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23198 hu=0.475662 hv=0.281214
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.17742  hu=0.355369 hv=-0.0510115
+    Edge flux h=0.0829042 hu=0.0791946 hv=3.73092
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.23198  hu=0 hv=0
+    Boundary flux h=0.118915 hu=3.98803 hv=0.157824
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.28441  hu=0.870163 hv=0.29248
+    Edge flux h=-0.508639 hu=-4.36918 hv=-3.99836
+
+Triangle 12 @0.301738
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.3162 hu=0.499821 hv=0.0502043
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.26238  hu=0.671074 hv=0.0207563
+    Edge flux h=0.319368 hu=4.12896 hv=0.0221017
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.3162  hu=0 hv=0
+    Boundary flux h=-0.0125511 hu=0.233455 hv=-4.22379
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.28841  hu=0.255008 hv=0.121263
+    Edge flux h=-0.132593 hu=-4.09112 hv=4.11719
+
+Triangle 13 @0.301738
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.26238 hu=0.671074 hv=0.0207563
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.29059  hu=0.912089 hv=0.0806538
+    Edge flux h=0.405645 hu=4.13017 hv=3.98068
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.26238  hu=0 hv=0
+    Boundary flux h=-0.00518908 hu=0.329428 hv=-3.89677
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.3162  hu=0.499821 hv=0.0502043
+    Edge flux h=-0.319368 hu=-4.12896 hv=-0.0221017
+
+Triangle 14 @0.301738
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2731 hu=0.771677 hv=0.155472
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.30494  hu=1.09738 hv=0.208804
+    Edge flux h=0.539448 hu=4.29619 hv=4.12317
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.2731  hu=0 hv=0
+    Boundary flux h=-0.038868 hu=0.377787 hv=-3.89749
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.29059  hu=0.912089 hv=0.0806538
+    Edge flux h=-0.430549 hu=-4.38379 hv=0.00329545
+
+Triangle 15 @0.301738
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28441 hu=0.870163 hv=0.29248
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.23198  hu=0.475662 hv=0.281214
+    Edge flux h=0.508639 hu=4.36918 hv=3.99836
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.28441  hu=0 hv=0
+    Boundary flux h=-0.0731199 hu=0.427794 hv=-3.90073
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.30494  hu=1.09738 hv=0.208804
+    Edge flux h=-0.504065 hu=-4.62254 hv=-0.0438118
+
+Triangle 0 @0.331912
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27143 hu=0.378376 hv=0.0848164
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.27143  hu=0 hv=0
+    Boundary flux h=0.0212041 hu=0.174316 hv=4.00228
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.29151  hu=0.719832 hv=0.0234252
+    Edge flux h=0.264288 hu=3.98014 hv=0.0409644
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.25014  hu=0.241318 hv=0.108707
+    Edge flux h=-0.193851 hu=-3.8879 hv=-3.92334
+
+Triangle 1 @0.331912
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.3357 hu=0.706386 hv=0.0397257
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.3357  hu=0 hv=0
+    Boundary flux h=0.00993144 hu=0.372145 hv=4.39492
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.33617  hu=1.05179 hv=0.131317
+    Edge flux h=0.439267 hu=4.47293 hv=-0.0227298
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.29151  hu=0.719832 hv=0.0234252
+    Edge flux h=-0.349389 hu=-4.44086 hv=-4.23212
+
+Triangle 2 @0.331912
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.37992 hu=0.949853 hv=0.119248
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.37992  hu=0 hv=0
+    Boundary flux h=0.0298121 hu=0.568448 hv=4.73974
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.2824  hu=0.815225 hv=-0.0459294
+    Edge flux h=0.497519 hu=4.72082 hv=0.108505
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.33617  hu=1.05179 hv=0.131317
+    Edge flux h=-0.537345 hu=-4.99944 hv=-4.58199
+
+Triangle 3 @0.331912
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2824 hu=0.815225 hv=-0.0459294
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.2824  hu=0 hv=0
+    Boundary flux h=-0.0114823 hu=0.42311 hv=4.00807
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.25605  hu=0.461038 hv=-0.0107568
+    Edge flux h=0.347153 hu=4.31704 hv=-3.97718
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.37992  hu=0.949853 hv=0.119248
+    Edge flux h=-0.497519 hu=-4.72082 hv=-0.108505
+
+Triangle 4 @0.331912
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25014 hu=0.241318 hv=0.108707
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.27143  hu=0.378376 hv=0.0848164
+    Edge flux h=0.193851 hu=3.8879 hv=3.92334
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.25479  hu=0.226092 hv=0.132752
+    Edge flux h=-0.0623027 hu=-0.00487888 hv=-3.86177
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.25014  hu=0 hv=0
+    Boundary flux h=-0.0603296 hu=-3.74285 hv=0.0399772
+
+Triangle 5 @0.331912
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29151 hu=0.719832 hv=0.0234252
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.3357  hu=0.706386 hv=0.0397257
+    Edge flux h=0.349389 hu=4.44086 hv=4.23212
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.27835  hu=0.833589 hv=0.0385735
+    Edge flux h=-0.00851794 hu=-0.0699127 hv=-4.05633
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.27143  hu=0.378376 hv=0.0848164
+    Edge flux h=-0.264288 hu=-3.98014 hv=-0.0409644
+
+Triangle 6 @0.331912
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33617 hu=1.05179 hv=0.131317
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.37992  hu=0.949853 hv=0.119248
+    Edge flux h=0.537345 hu=4.99944 hv=4.58199
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.29418  hu=1.00487 hv=0.151209
+    Edge flux h=-0.0459566 hu=-0.0276185 hv=-4.26102
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.3357  hu=0.706386 hv=0.0397257
+    Edge flux h=-0.439267 hu=-4.47293 hv=0.0227298
+
+Triangle 7 @0.331912
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25605 hu=0.461038 hv=-0.0107568
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.25605  hu=0 hv=0
+    Boundary flux h=0.115259 hu=4.11926 hv=-0.00586529
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.30604  hu=0.54855 hv=0.307673
+    Edge flux h=-0.0991014 hu=-0.0748538 hv=-4.20145
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.2824  hu=0.815225 hv=-0.0459294
+    Edge flux h=-0.347153 hu=-4.31704 hv=3.97718
+
+Triangle 8 @0.331912
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25479 hu=0.226092 hv=0.132752
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.25014  hu=0.241318 hv=0.108707
+    Edge flux h=0.0623027 hu=0.00487888 hv=3.86177
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.27415  hu=0.434332 hv=0.0706006
+    Edge flux h=0.105474 hu=3.86075 hv=-3.88441
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.25479  hu=0 hv=0
+    Boundary flux h=-0.056523 hu=-3.77608 hv=0.0493575
+
+Triangle 9 @0.331912
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27835 hu=0.833589 hv=0.0385735
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.29151  hu=0.719832 hv=0.0234252
+    Edge flux h=0.00851794 hu=0.0699127 hv=4.05633
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.25619  hu=0.701629 hv=0.1002
+    Edge flux h=0.39556 hu=4.24149 hv=-0.0124197
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.2428  hu=0.591263 hv=0.00583514
+    Edge flux h=-0.348454 hu=-3.98121 hv=-3.8865
+
+Triangle 10 @0.331912
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29418 hu=1.00487 hv=0.151209
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.33617  hu=1.05179 hv=0.131317
+    Edge flux h=0.0459566 hu=0.0276185 hv=4.26102
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.30095  hu=0.828057 hv=0.279489
+    Edge flux h=0.454368 hu=4.55552 hv=0.000658756
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.25619  hu=0.701629 hv=0.1002
+    Edge flux h=-0.467809 hu=-4.15096 hv=-4.00821
+
+Triangle 11 @0.331912
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30604 hu=0.54855 hv=0.307673
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.25605  hu=0.461038 hv=-0.0107568
+    Edge flux h=0.0991014 hu=0.0748538 hv=4.20145
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.30604  hu=0 hv=0
+    Boundary flux h=0.137138 hu=4.51241 hv=0.185364
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.30095  hu=0.828057 hv=0.279489
+    Edge flux h=-0.488177 hu=-4.58369 hv=-4.26026
+
+Triangle 12 @0.331912
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27415 hu=0.434332 hv=0.0706006
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.2428  hu=0.591263 hv=0.00583514
+    Edge flux h=0.271281 hu=3.91627 hv=0.0374623
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.27415  hu=0 hv=0
+    Boundary flux h=-0.0176502 hu=0.191298 hv=-3.94906
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.25479  hu=0.226092 hv=0.132752
+    Edge flux h=-0.105474 hu=-3.86075 hv=3.88441
+
+Triangle 13 @0.331912
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2428 hu=0.591263 hv=0.00583514
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.27835  hu=0.833589 hv=0.0385735
+    Edge flux h=0.348454 hu=3.98121 hv=3.8865
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.2428  hu=0 hv=0
+    Boundary flux h=-0.00145878 hu=0.280047 hv=-3.78397
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.27415  hu=0.434332 hv=0.0706006
+    Edge flux h=-0.271281 hu=-3.91627 hv=-0.0374623
+
+Triangle 14 @0.331912
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25619 hu=0.701629 hv=0.1002
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.29418  hu=1.00487 hv=0.151209
+    Edge flux h=0.467809 hu=4.15096 hv=4.00821
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.25619  hu=0 hv=0
+    Boundary flux h=-0.0250499 hu=0.3374 hv=-3.82059
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.27835  hu=0.833589 hv=0.0385735
+    Edge flux h=-0.39556 hu=-4.24149 hv=0.0124197
+
+Triangle 15 @0.331912
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30095 hu=0.828057 hv=0.279489
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.30604  hu=0.54855 hv=0.307673
+    Edge flux h=0.488177 hu=4.58369 hv=4.26026
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.30095  hu=0 hv=0
+    Boundary flux h=-0.0698722 hu=0.405475 hv=-4.01254
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.29418  hu=1.00487 hv=0.151209
+    Edge flux h=-0.454368 hu=-4.55552 hv=-0.000658756
+
+Triangle 0 @0.362086
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.24931 hu=0.314032 hv=0.0558726
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.24931  hu=0 hv=0
+    Boundary flux h=0.0139681 hu=0.137154 hv=3.8509
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.27302  hu=0.625494 hv=-0.00912008
+    Edge flux h=0.223293 hu=3.84415 hv=0.0341564
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.23295  hu=0.207483 hv=0.0841929
+    Edge flux h=-0.158432 hu=-3.76689 hv=-3.79788
+
+Triangle 1 @0.362086
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31161 hu=0.608813 hv=0.00591441
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.31161  hu=0 hv=0
+    Boundary flux h=0.0014786 hu=0.302096 hv=4.22055
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.32359  hu=0.931365 hv=0.0483527
+    Edge flux h=0.378336 hu=4.31024 hv=-0.014566
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.27302  hu=0.625494 hv=-0.00912008
+    Edge flux h=-0.288672 hu=-4.25067 hv=-4.08751
+
+Triangle 2 @0.362086
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38233 hu=0.87989 hv=0.0549747
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.38233  hu=0 hv=0
+    Boundary flux h=0.0137437 hu=0.504142 hv=4.71625
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.32147  hu=0.810559 hv=-0.0271941
+    Edge flux h=0.456877 hu=4.78638 hv=0.0508406
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.32359  hu=0.931365 hv=0.0483527
+    Edge flux h=-0.445571 hu=-4.83999 hv=-4.50441
+
+Triangle 3 @0.362086
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.32147 hu=0.810559 hv=-0.0271941
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.32147  hu=0 hv=0
+    Boundary flux h=-0.00679853 hu=0.430065 hv=4.26689
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.33595  hu=0.52685 hv=0.0447956
+    Edge flux h=0.322199 hu=4.65644 hv=-4.3673
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.38233  hu=0.87989 hv=0.0549747
+    Edge flux h=-0.456877 hu=-4.78638 hv=-0.0508406
+
+Triangle 4 @0.362086
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23295 hu=0.207483 hv=0.0841929
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.24931  hu=0.314032 hv=0.0558726
+    Edge flux h=0.158432 hu=3.76689 hv=3.79788
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.22794  hu=0.204477 hv=0.126303
+    Edge flux h=-0.0505904 hu=-0.00758122 hv=-3.73357
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.23295  hu=0 hv=0
+    Boundary flux h=-0.0518706 hu=-3.65185 hv=0.0304668
+
+Triangle 5 @0.362086
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.27302 hu=0.625494 hv=-0.00912008
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.31161  hu=0.608813 hv=0.00591441
+    Edge flux h=0.288672 hu=4.25067 hv=4.08751
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.26492  hu=0.753882 hv=0.000575844
+    Edge flux h=0.00627998 hu=-0.0646605 hv=-3.9529
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.24931  hu=0.314032 hv=0.0558726
+    Edge flux h=-0.223293 hu=-3.84415 hv=-0.0341564
+
+Triangle 6 @0.362086
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.32359 hu=0.931365 hv=0.0483527
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.38233  hu=0.87989 hv=0.0549747
+    Edge flux h=0.445571 hu=4.83999 hv=4.50441
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.28633  hu=0.900542 hv=0.0900219
+    Edge flux h=-0.0137367 hu=-0.00700661 hv=-4.20119
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.31161  hu=0.608813 hv=0.00591441
+    Edge flux h=-0.378336 hu=-4.31024 hv=0.014566
+
+Triangle 7 @0.362086
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33595 hu=0.52685 hv=0.0447956
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.33595  hu=0 hv=0
+    Boundary flux h=0.131712 hu=4.68386 hv=0.0262091
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.36686  hu=0.547686 hv=0.277124
+    Edge flux h=-0.0962387 hu=-0.0427979 hv=-4.61089
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.32147  hu=0.810559 hv=-0.0271941
+    Edge flux h=-0.322199 hu=-4.65644 hv=4.3673
+
+Triangle 8 @0.362086
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.22794 hu=0.204477 hv=0.126303
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.23295  hu=0.207483 hv=0.0841929
+    Edge flux h=0.0505904 hu=0.00758122 hv=3.73357
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.23838  hu=0.374752 hv=0.077164
+    Edge flux h=0.0894029 hu=3.68008 hv=-3.70028
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.22794  hu=0 hv=0
+    Boundary flux h=-0.0511192 hu=-3.62228 hv=0.0459572
+
+Triangle 9 @0.362086
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.26492 hu=0.753882 hv=0.000575844
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.27302  hu=0.625494 hv=-0.00912008
+    Edge flux h=-0.00627998 hu=0.0646605 hv=3.9529
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.2448  hu=0.642038 hv=0.0519139
+    Edge flux h=0.359276 hu=4.11316 hv=-0.0194894
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.22453  hu=0.507986 hv=-0.00987092
+    Edge flux h=-0.292473 hu=-3.8377 hv=-3.79319
+
+Triangle 10 @0.362086
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28633 hu=0.900542 hv=0.0900219
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.32359  hu=0.931365 hv=0.0483527
+    Edge flux h=0.0137367 hu=0.00700661 hv=4.20119
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.30966  hu=0.723381 hv=0.219851
+    Edge flux h=0.393235 hu=4.48518 hv=-0.0248207
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.2448  hu=0.642038 hv=0.0519139
+    Edge flux h=-0.398437 hu=-4.0494 hv=-3.93153
+
+Triangle 11 @0.362086
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.36686 hu=0.547686 hv=0.277124
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.33595  hu=0.52685 hv=0.0447956
+    Edge flux h=0.0962387 hu=0.0427979 hv=4.61089
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.36686  hu=0 hv=0
+    Boundary flux h=0.136921 hu=4.91451 hv=0.169027
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.30966  hu=0.723381 hv=0.219851
+    Edge flux h=-0.412127 hu=-4.69745 hv=-4.44426
+
+Triangle 12 @0.362086
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23838 hu=0.374752 hv=0.077164
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.22453  hu=0.507986 hv=-0.00987092
+    Edge flux h=0.22698 hu=3.73852 hv=0.0443546
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.23838  hu=0 hv=0
+    Boundary flux h=-0.019291 hu=0.156917 hv=-3.72754
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.22794  hu=0.204477 hv=0.126303
+    Edge flux h=-0.0894029 hu=-3.68008 hv=3.70028
+
+Triangle 13 @0.362086
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.22453 hu=0.507986 hv=-0.00987092
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.26492  hu=0.753882 hv=0.000575844
+    Edge flux h=0.292473 hu=3.8377 hv=3.79319
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.22453  hu=0 hv=0
+    Boundary flux h=0.00246773 hu=0.231806 hv=-3.68068
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.23838  hu=0.374752 hv=0.077164
+    Edge flux h=-0.22698 hu=-3.73852 hv=-0.0443546
+
+Triangle 14 @0.362086
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2448 hu=0.642038 hv=0.0519139
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.28633  hu=0.900542 hv=0.0900219
+    Edge flux h=0.398437 hu=4.0494 hv=3.93153
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.2448  hu=0 hv=0
+    Boundary flux h=-0.0129785 hu=0.305033 hv=-3.77425
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.26492  hu=0.753882 hv=0.000575844
+    Edge flux h=-0.359276 hu=-4.11316 hv=0.0194894
+
+Triangle 15 @0.362086
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30966 hu=0.723381 hv=0.219851
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.36686  hu=0.547686 hv=0.277124
+    Edge flux h=0.412127 hu=4.69745 hv=4.44426
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.30966  hu=0 hv=0
+    Boundary flux h=-0.0549628 hu=0.347566 hv=-4.09948
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.28633  hu=0.900542 hv=0.0900219
+    Edge flux h=-0.393235 hu=-4.48518 hv=0.0248207
+
+Triangle 0 @0.39226
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23028 hu=0.262275 hv=0.0348297
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.23028  hu=0 hv=0
+    Boundary flux h=0.00870742 hu=0.109525 hv=3.72537
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.25572  hu=0.54297 hv=-0.0333698
+    Edge flux h=0.18938 hu=3.72938 hv=0.0302331
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.21944  hu=0.181544 hv=0.0613129
+    Edge flux h=-0.130539 hu=-3.66999 hv=-3.69429
+
+Triangle 1 @0.39226
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2896 hu=0.52151 hv=-0.0226842
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.2896  hu=0 hv=0
+    Boundary flux h=-0.00567105 hu=0.244596 hv=4.06667
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.31067  hu=0.80518 hv=-0.0283577
+    Edge flux h=0.320459 hu=4.16988 hv=-0.00362896
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.25572  hu=0.54297 hv=-0.0333698
+    Edge flux h=-0.236066 hu=-4.08727 hv=-3.96096
+
+Triangle 2 @0.39226
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.37629 hu=0.771135 hv=-0.00843405
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.37629  hu=0 hv=0
+    Boundary flux h=-0.00210851 hu=0.415965 hv=4.6393
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.35562  hu=0.738111 hv=0.00931595
+    Edge flux h=0.388488 hu=4.80101 hv=-0.00951521
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.31067  hu=0.80518 hv=-0.0283577
+    Edge flux h=-0.349388 hu=-4.6723 hv=-4.41159
+
+Triangle 3 @0.39226
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35562 hu=0.738111 hv=0.00931595
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.35562  hu=0 hv=0
+    Boundary flux h=0.00232899 hu=0.39239 hv=4.51042
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.40516  hu=0.530563 hv=0.0972685
+    Edge flux h=0.264275 hu=4.92318 hv=-4.71096
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.37629  hu=0.771135 hv=-0.00843405
+    Edge flux h=-0.388488 hu=-4.80101 hv=0.00951521
+
+Triangle 4 @0.39226
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.21944 hu=0.181544 hv=0.0613129
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.23028  hu=0.262275 hv=0.0348297
+    Edge flux h=0.130539 hu=3.66999 hv=3.69429
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.20648  hu=0.188693 hv=0.107174
+    Edge flux h=-0.0369994 hu=-0.00929835 hv=-3.62845
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.21944  hu=0 hv=0
+    Boundary flux h=-0.045386 hu=-3.58086 hv=0.0218983
+
+Triangle 5 @0.39226
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25572 hu=0.54297 hv=-0.0333698
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.2896  hu=0.52151 hv=-0.0226842
+    Edge flux h=0.236066 hu=4.08727 hv=3.96096
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.25031  hu=0.67178 hv=-0.0332718
+    Edge flux h=0.0193243 hu=-0.055347 hv=-3.84975
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.23028  hu=0.262275 hv=0.0348297
+    Edge flux h=-0.18938 hu=-3.72938 hv=-0.0302331
+
+Triangle 6 @0.39226
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31067 hu=0.80518 hv=-0.0283577
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.37629  hu=0.771135 hv=-0.00843405
+    Edge flux h=0.349388 hu=4.6723 hv=4.41159
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.28427  hu=0.793657 hv=0.0309205
+    Edge flux h=0.0134112 hu=0.00571147 hv=-4.15954
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.2896  hu=0.52151 hv=-0.0226842
+    Edge flux h=-0.320459 hu=-4.16988 hv=0.00362896
+
+Triangle 7 @0.39226
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.40516 hu=0.530563 hv=0.0972685
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.40516  hu=0 hv=0
+    Boundary flux h=0.132641 hu=5.15941 hv=0.0584224
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.41006  hu=0.484958 hv=0.196099
+    Edge flux h=-0.0758236 hu=-0.00295569 hv=-4.91619
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.35562  hu=0.738111 hv=0.00931595
+    Edge flux h=-0.264275 hu=-4.92318 hv=4.71096
+
+Triangle 8 @0.39226
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.20648 hu=0.188693 hv=0.107174
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.21944  hu=0.181544 hv=0.0613129
+    Edge flux h=0.0369994 hu=0.00929835 hv=3.62845
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.20983  hu=0.322767 hv=0.0730386
+    Edge flux h=0.0814152 hu=3.54247 hv=-3.55874
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.20648  hu=0 hv=0
+    Boundary flux h=-0.0471732 hu=-3.50142 hv=0.038177
+
+Triangle 9 @0.39226
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25031 hu=0.67178 hv=-0.0332718
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.25572  hu=0.54297 hv=-0.0333698
+    Edge flux h=-0.0193243 hu=0.055347 hv=3.84975
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.23848  hu=0.583799 hv=0.00924477
+    Edge flux h=0.319721 hu=3.99889 hv=-0.0243141
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.20812  hu=0.428089 hv=-0.0263217
+    Edge flux h=-0.239295 hu=-3.70685 hv=-3.70247
+
+Triangle 10 @0.39226
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28427 hu=0.793657 hv=0.0309205
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.31067  hu=0.80518 hv=-0.0283577
+    Edge flux h=-0.0134112 hu=-0.00571147 hv=4.15954
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.31837  hu=0.588243 hv=0.130635
+    Edge flux h=0.327609 hu=4.44831 hv=-0.0329025
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.23848  hu=0.583799 hv=0.00924477
+    Edge flux h=-0.330409 hu=-3.98937 hv=-3.89676
+
+Triangle 11 @0.39226
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.41006 hu=0.484958 hv=0.196099
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.40516  hu=0.530563 hv=0.0972685
+    Edge flux h=0.0758236 hu=0.00295569 hv=4.91619
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.41006  hu=0 hv=0
+    Boundary flux h=0.121239 hu=5.161 hv=0.115822
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.31837  hu=0.588243 hv=0.130635
+    Edge flux h=-0.303711 hu=-4.75876 hv=-4.57635
+
+Triangle 12 @0.39226
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.20983 hu=0.322767 hv=0.0730386
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.20812  hu=0.428089 hv=-0.0263217
+    Edge flux h=0.188458 hu=3.59704 hv=0.0457648
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.20983  hu=0 hv=0
+    Boundary flux h=-0.0182596 hu=0.129758 hv=-3.55911
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.20648  hu=0.188693 hv=0.107174
+    Edge flux h=-0.0814152 hu=-3.54247 hv=3.55874
+
+Triangle 13 @0.39226
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.20812 hu=0.428089 hv=-0.0263217
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.25031  hu=0.67178 hv=-0.0332718
+    Edge flux h=0.239295 hu=3.70685 hv=3.70247
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.20812  hu=0 hv=0
+    Boundary flux h=0.00658042 hu=0.188565 hv=-3.58993
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.20983  hu=0.322767 hv=0.0730386
+    Edge flux h=-0.188458 hu=-3.59704 hv=-0.0457648
+
+Triangle 14 @0.39226
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23848 hu=0.583799 hv=0.00924477
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.28427  hu=0.793657 hv=0.0309205
+    Edge flux h=0.330409 hu=3.98937 hv=3.89676
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.23848  hu=0 hv=0
+    Boundary flux h=-0.00231119 hu=0.274656 hv=-3.75609
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.25031  hu=0.67178 hv=-0.0332718
+    Edge flux h=-0.319721 hu=-3.99889 hv=0.0243141
+
+Triangle 15 @0.39226
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.31837 hu=0.588243 hv=0.130635
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.41006  hu=0.484958 hv=0.196099
+    Edge flux h=0.303711 hu=4.75876 hv=4.57635
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.31837  hu=0 hv=0
+    Boundary flux h=-0.0326587 hu=0.276956 hv=-4.19971
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.28427  hu=0.793657 hv=0.0309205
+    Edge flux h=-0.327609 hu=-4.44831 hv=0.0329025
+
+Triangle 0 @0.422434
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.21398 hu=0.221501 hv=0.0200298
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.21398  hu=0 hv=0
+    Boundary flux h=0.00500746 hu=0.0891553 hv=3.62117
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.23979  hu=0.469939 hv=-0.0529167
+    Edge flux h=0.161206 hu=3.63321 hv=0.0288355
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.20782  hu=0.162273 hv=0.0401337
+    Edge flux h=-0.10853 hu=-3.58904 hv=-3.60551
+
+Triangle 1 @0.422434
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2706 hu=0.442526 hv=-0.0473273
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.2706  hu=0 hv=0
+    Boundary flux h=-0.0118318 hu=0.196916 hv=3.93698
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.30045  hu=0.682522 hv=-0.0900778
+    Edge flux h=0.266116 hu=4.05844 hv=0.00574989
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.23979  hu=0.469939 hv=-0.0529167
+    Edge flux h=-0.189057 hu=-3.94959 hv=-3.85254
+
+Triangle 2 @0.422434
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.36736 hu=0.639655 hv=-0.0611039
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.36736  hu=0 hv=0
+    Boundary flux h=-0.015276 hu=0.322352 hv=4.55299
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.38505  hu=0.6139 hv=0.055427
+    Edge flux h=0.304276 hu=4.79957 hv=-0.0610316
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.30045  hu=0.682522 hv=-0.0900778
+    Edge flux h=-0.258286 hu=-4.53247 hv=-4.33335
+
+Triangle 3 @0.422434
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.38505 hu=0.6139 hv=0.055427
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.38505  hu=0 hv=0
+    Boundary flux h=0.0138567 hu=0.322176 hv=4.73225
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.45524  hu=0.474254 hv=0.132706
+    Edge flux h=0.188871 hu=5.10914 hv=-4.97395
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.36736  hu=0.639655 hv=-0.0611039
+    Edge flux h=-0.304276 hu=-4.79957 hv=0.0610316
+
+Triangle 4 @0.422434
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.20782 hu=0.162273 hv=0.0401337
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.21398  hu=0.221501 hv=0.0200298
+    Edge flux h=0.10853 hu=3.58904 hv=3.60551
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.18928  hu=0.176538 hv=0.0811302
+    Edge flux h=-0.0231498 hu=-0.00987542 hv=-3.53965
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.20782  hu=0 hv=0
+    Boundary flux h=-0.0405683 hu=-3.51923 hv=0.0141725
+
+Triangle 5 @0.422434
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23979 hu=0.469939 hv=-0.0529167
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.2706  hu=0.442526 hv=-0.0473273
+    Edge flux h=0.189057 hu=3.94959 hv=3.85254
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.23556  hu=0.587925 hv=-0.0629531
+    Edge flux h=0.0309663 hu=-0.0433093 hv=-3.75218
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.21398  hu=0.221501 hv=0.0200298
+    Edge flux h=-0.161206 hu=-3.63321 hv=-0.0288355
+
+Triangle 6 @0.422434
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30045 hu=0.682522 hv=-0.0900778
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.36736  hu=0.639655 hv=-0.0611039
+    Edge flux h=0.258286 hu=4.53247 hv=4.33335
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.28819  hu=0.684249 hv=-0.0245683
+    Edge flux h=0.0348857 hu=0.014205 hv=-4.14219
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.2706  hu=0.442526 hv=-0.0473273
+    Edge flux h=-0.266116 hu=-4.05844 hv=-0.00574989
+
+Triangle 7 @0.422434
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.45524 hu=0.474254 hv=0.132706
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.45524  hu=0 hv=0
+    Boundary flux h=0.118564 hu=5.47301 hv=0.0786538
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.4358  hu=0.387148 hv=0.0861062
+    Edge flux h=-0.0447691 hu=0.0279137 hv=-5.10355
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.38505  hu=0.6139 hv=0.055427
+    Edge flux h=-0.188871 hu=-5.10914 hv=4.97395
+
+Triangle 8 @0.422434
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.18928 hu=0.176538 hv=0.0811302
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.20782  hu=0.162273 hv=0.0401337
+    Edge flux h=0.0231498 hu=0.00987542 hv=3.53965
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.1884  hu=0.278274 hv=0.0620813
+    Edge flux h=0.0782571 hu=3.44026 hv=-3.45292
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.18928  hu=0 hv=0
+    Boundary flux h=-0.0441346 hu=-3.40597 hv=0.028337
+
+Triangle 9 @0.422434
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23556 hu=0.587925 hv=-0.0629531
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.23979  hu=0.469939 hv=-0.0529167
+    Edge flux h=-0.0309663 hu=0.0433093 hv=3.75218
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.23646  hu=0.519799 hv=-0.0305816
+    Edge flux h=0.276508 hu=3.90225 hv=-0.0260161
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.19426  hu=0.356062 hv=-0.0424405
+    Edge flux h=-0.190111 hu=-3.59587 hv=-3.61995
+
+Triangle 10 @0.422434
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.28819 hu=0.684249 hv=-0.0245683
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.30045  hu=0.682522 hv=-0.0900778
+    Edge flux h=-0.0348857 hu=-0.014205 hv=4.14219
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.33202  hu=0.446448 hv=0.0317767
+    Edge flux h=0.260595 hu=4.45719 hv=-0.0289814
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.23646  hu=0.519799 hv=-0.0305816
+    Edge flux h=-0.261169 hu=-3.96444 hv=-3.89906
+
+Triangle 11 @0.422434
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.4358 hu=0.387148 hv=0.0861062
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.45524  hu=0.474254 hv=0.132706
+    Edge flux h=0.0447691 hu=-0.0279137 hv=5.10355
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.4358  hu=0 hv=0
+    Boundary flux h=0.096787 hu=5.26988 hv=0.0479718
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.33202  hu=0.446448 hv=0.0317767
+    Edge flux h=-0.187045 hu=-4.80307 hv=-4.6854
+
+Triangle 12 @0.422434
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.1884 hu=0.278274 hv=0.0620813
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.19426  hu=0.356062 hv=-0.0424405
+    Edge flux h=0.156133 hu=3.48989 hv=0.0441732
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.1884  hu=0 hv=0
+    Boundary flux h=-0.0155203 hu=0.108459 hv=-3.43827
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.18928  hu=0.176538 hv=0.0811302
+    Edge flux h=-0.0782571 hu=-3.44026 hv=3.45292
+
+Triangle 13 @0.422434
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.19426 hu=0.356062 hv=-0.0424405
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.23556  hu=0.587925 hv=-0.0629531
+    Edge flux h=0.190111 hu=3.59587 hv=3.61995
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.19426  hu=0 hv=0
+    Boundary flux h=0.0106101 hu=0.152039 hv=-3.51483
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.1884  hu=0.278274 hv=0.0620813
+    Edge flux h=-0.156133 hu=-3.48989 hv=-0.0441732
+
+Triangle 14 @0.422434
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23646 hu=0.519799 hv=-0.0305816
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.28819  hu=0.684249 hv=-0.0245683
+    Edge flux h=0.261169 hu=3.96444 hv=3.89906
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.23646  hu=0 hv=0
+    Boundary flux h=0.0076454 hu=0.242176 hv=-3.76242
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.23556  hu=0.587925 hv=-0.0629531
+    Edge flux h=-0.276508 hu=-3.90225 hv=0.0260161
+
+Triangle 15 @0.422434
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.33202 hu=0.446448 hv=0.0317767
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.4358  hu=0.387148 hv=0.0861062
+    Edge flux h=0.187045 hu=4.80307 hv=4.6854
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.33202  hu=0 hv=0
+    Boundary flux h=-0.00794416 hu=0.207545 hv=-4.33516
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.28819  hu=0.684249 hv=-0.0245683
+    Edge flux h=-0.260595 hu=-4.45719 hv=0.0289814
+
+Triangle 0 @0.452608
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.20005 hu=0.189317 hv=0.00928762
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.20005  hu=0 hv=0
+    Boundary flux h=0.00232191 hu=0.0739259 hv=3.53433
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.22559  hu=0.404022 hv=-0.0701816
+    Edge flux h=0.137199 hu=3.55378 hv=0.0292339
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.197  hu=0.147804 hv=0.0208154
+    Edge flux h=-0.0906195 hu=-3.51864 hv=-3.52732
+
+Triangle 1 @0.452608
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.25486 hu=0.368718 hv=-0.0690969
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.25486  hu=0 hv=0
+    Boundary flux h=-0.0172742 hu=0.156165 hv=3.83128
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.29392  hu=0.564666 hv=-0.134834
+    Edge flux h=0.214383 hu=3.97618 hv=0.0121228
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.22559  hu=0.404022 hv=-0.0701816
+    Edge flux h=-0.145567 hu=-3.83652 hv=-3.76218
+
+Triangle 2 @0.452608
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35994 hu=0.497366 hv=-0.0993922
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.35994  hu=0 hv=0
+    Boundary flux h=-0.024848 hu=0.234027 hv=4.48745
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.40956  hu=0.461403 hv=0.0990394
+    Edge flux h=0.215103 hu=4.80372 hv=-0.0993243
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.29392  hu=0.564666 hv=-0.134834
+    Edge flux h=-0.174681 hu=-4.43562 hv=-4.28365
+
+Triangle 3 @0.452608
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.40956 hu=0.461403 hv=0.0990394
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.40956  hu=0 hv=0
+    Boundary flux h=0.0247598 hu=0.236774 hv=4.92193
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.48302  hu=0.379682 hv=0.145004
+    Edge flux h=0.112226 hu=5.21744 hv=-5.14264
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.35994  hu=0.497366 hv=-0.0993922
+    Edge flux h=-0.215103 hu=-4.80372 hv=0.0993243
+
+Triangle 4 @0.452608
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.197 hu=0.147804 hv=0.0208154
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.20005  hu=0.189317 hv=0.00928762
+    Edge flux h=0.0906195 hu=3.51864 hv=3.52732
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.17546  hu=0.165876 hv=0.0533545
+    Edge flux h=-0.0103482 hu=-0.00940027 hv=-3.46319
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.197  hu=0 hv=0
+    Boundary flux h=-0.0369511 hu=-3.46108 hv=0.00727661
+
+Triangle 5 @0.452608
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.22559 hu=0.404022 hv=-0.0701816
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.25486  hu=0.368718 hv=-0.0690969
+    Edge flux h=0.145567 hu=3.83652 hv=3.76218
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.22218  hu=0.503512 hv=-0.088592
+    Edge flux h=0.0412417 hu=-0.0302923 hv=-3.66659
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.20005  hu=0.189317 hv=0.00928762
+    Edge flux h=-0.137199 hu=-3.55378 hv=-0.0292339
+
+Triangle 6 @0.452608
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29392 hu=0.564666 hv=-0.134834
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.35994  hu=0.497366 hv=-0.0993922
+    Edge flux h=0.174681 hu=4.43562 hv=4.28365
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.29675  hu=0.568732 hv=-0.0762617
+    Edge flux h=0.0514039 hu=0.0210982 hv=-4.14669
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.25486  hu=0.368718 hv=-0.0690969
+    Edge flux h=-0.214383 hu=-3.97618 hv=-0.0121228
+
+Triangle 7 @0.452608
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.48302 hu=0.379682 hv=0.145004
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.48302  hu=0 hv=0
+    Boundary flux h=0.0949205 hu=5.60775 hv=0.0823876
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.44679  hu=0.281203 hv=-0.026411
+    Edge flux h=-0.0113822 hu=0.0416522 hv=-5.17915
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.40956  hu=0.461403 hv=0.0990394
+    Edge flux h=-0.112226 hu=-5.21744 hv=5.14264
+
+Triangle 8 @0.452608
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.17546 hu=0.165876 hv=0.0533545
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.197  hu=0.147804 hv=0.0208154
+    Edge flux h=0.0103482 hu=0.00940027 hv=3.46319
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.17335  hu=0.240113 hv=0.0478806
+    Edge flux h=0.0770152 hu=3.36615 hv=-3.37601
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.17546  hu=0 hv=0
+    Boundary flux h=-0.041469 hu=-3.33048 hv=0.0183315
+
+Triangle 9 @0.452608
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.22218 hu=0.503512 hv=-0.088592
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.22559  hu=0.404022 hv=-0.0701816
+    Edge flux h=-0.0412417 hu=0.0302923 hv=3.66659
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.23831  hu=0.446329 hv=-0.0698455
+    Edge flux h=0.230131 hu=3.82883 hv=-0.0239351
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.1835  hu=0.293779 hv=-0.0571543
+    Edge flux h=-0.145311 hu=-3.51017 hv=-3.55195
+
+Triangle 10 @0.452608
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.29675 hu=0.568732 hv=-0.0762617
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.29392  hu=0.564666 hv=-0.134834
+    Edge flux h=-0.0514039 hu=-0.0210982 hv=4.14669
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.35169  hu=0.312856 hv=-0.0597649
+    Edge flux h=0.193757 hu=4.5055 hv=-0.0198185
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.23831  hu=0.446329 hv=-0.0698455
+    Edge flux h=-0.188908 hu=-3.96959 hv=-3.93158
+
+Triangle 11 @0.452608
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.44679 hu=0.281203 hv=-0.026411
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.48302  hu=0.379682 hv=0.145004
+    Edge flux h=0.0113822 hu=-0.0416522 hv=5.17915
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.44679  hu=0 hv=0
+    Boundary flux h=0.0703008 hu=5.27864 hv=-0.0137925
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.35169  hu=0.312856 hv=-0.0597649
+    Edge flux h=-0.0819313 hu=-4.84759 hv=-4.78582
+
+Triangle 12 @0.452608
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.17335 hu=0.240113 hv=0.0478806
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.1835  hu=0.293779 hv=-0.0571543
+    Edge flux h=0.129371 hu=3.41346 hv=0.0413497
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.17335  hu=0 hv=0
+    Boundary flux h=-0.0119702 hu=0.0914895 hv=-3.35706
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.17546  hu=0.165876 hv=0.0533545
+    Edge flux h=-0.0770152 hu=-3.36615 hv=3.37601
+
+Triangle 13 @0.452608
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.1835 hu=0.293779 hv=-0.0571543
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.22218  hu=0.503512 hv=-0.088592
+    Edge flux h=0.145311 hu=3.51017 hv=3.55195
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.1835  hu=0 hv=0
+    Boundary flux h=0.0142886 hu=0.122269 hv=-3.45775
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.17335  hu=0.240113 hv=0.0478806
+    Edge flux h=-0.129371 hu=-3.41346 hv=-0.0413497
+
+Triangle 14 @0.452608
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.23831 hu=0.446329 hv=-0.0698455
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.29675  hu=0.568732 hv=-0.0762617
+    Edge flux h=0.188908 hu=3.96959 hv=3.93158
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.23831  hu=0 hv=0
+    Boundary flux h=0.0174614 hu=0.205874 hv=-3.79165
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.22218  hu=0.503512 hv=-0.088592
+    Edge flux h=-0.230131 hu=-3.82883 hv=0.0239351
+
+Triangle 15 @0.452608
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35169 hu=0.312856 hv=-0.0597649
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.44679  hu=0.281203 hv=-0.026411
+    Edge flux h=0.0819313 hu=4.84759 hv=4.78582
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.35169  hu=0 hv=0
+    Boundary flux h=0.0149412 hu=0.145314 hv=-4.50712
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.29675  hu=0.568732 hv=-0.0762617
+    Edge flux h=-0.193757 hu=-4.5055 hv=0.0198185
+
+Triangle 0 @0.482782
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0.5 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.18825 hu=0.162989 hv=0.000540114
+  Edge 0 (-1 0.5 0) (-0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 0
+    Opposite Tri QVar h=1.18825  hu=0 hv=0
+    Boundary flux h=0.000135028 hu=0.0620246 hv=3.46179
+  Edge 1 (-0.5 0.5 0) (-0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.21361  hu=0.343083 hv=-0.0861994
+    Edge flux h=0.115804 hu=3.49004 hv=0.0305619
+  Edge 2 (-0.5 0 0) (-1 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.18654  hu=0.136181 hv=0.00357759
+    Edge flux h=-0.0751726 hu=-3.45603 hv=-3.45789
+
+Triangle 1 @0.482782
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0.5 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.24241 hu=0.297308 hv=-0.0887037
+  Edge 0 (-0.5 0.5 0) (0 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 1
+    Opposite Tri QVar h=1.24241  hu=0 hv=0
+    Boundary flux h=-0.0221759 hu=0.120193 hv=3.74851
+  Edge 1 (0 0.5 0) (0 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.2911  hu=0.44867 hv=-0.164967
+    Edge flux h=0.163823 hu=3.92185 hv=0.015876
+  Edge 2 (0 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.21361  hu=0.343083 hv=-0.0861994
+    Edge flux h=-0.104208 hu=-3.74763 hv=-3.69044
+
+Triangle 2 @0.482782
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.35618 hu=0.352019 hv=-0.124612
+  Edge 0 (0 0.5 0) (0.5 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 2
+    Opposite Tri QVar h=1.35618  hu=0 hv=0
+    Boundary flux h=-0.031153 hu=0.155316 hv=4.4542
+  Edge 1 (0.5 0.5 0) (0.5 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.42842  hu=0.304379 hv=0.128341
+    Edge flux h=0.129679 hu=4.8175 hv=-0.121786
+  Edge 2 (0.5 0 0) (0 0.5 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.2911  hu=0.44867 hv=-0.164967
+    Edge flux h=-0.0974683 hu=-4.38238 hv=-4.26489
+
+Triangle 3 @0.482782
+  Area 0.125
+  Node positions (0.5 0.5 0) (1 0.5 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.42842 hu=0.304379 hv=0.128341
+  Edge 0 (0.5 0.5 0) (1 0.5 0)
+    Normal (0 0.5 0)
+    Adj Triangles 3
+    Opposite Tri QVar h=1.42842  hu=0 hv=0
+    Boundary flux h=0.0320852 hu=0.15188 hv=5.06635
+  Edge 1 (1 0.5 0) (0.5 0 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.48994  hu=0.27541 hv=0.13393
+    Edge flux h=0.049259 hu=5.2525 hv=-5.21801
+  Edge 2 (0.5 0 0) (0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 2 3
+    Opposite Tri QVar h=1.35618  hu=0.352019 hv=-0.124612
+    Edge flux h=-0.129679 hu=-4.8175 hv=0.121786
+
+Triangle 4 @0.482782
+  Area 0.125
+  Node positions (-1 0.5 0) (-0.5 0 0) (-1 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.18654 hu=0.136181 hv=0.00357759
+  Edge 0 (-1 0.5 0) (-0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 0 4
+    Opposite Tri QVar h=1.18825  hu=0.162989 hv=0.000540114
+    Edge flux h=0.0751726 hu=3.45603 hv=3.45789
+  Edge 1 (-0.5 0 0) (-1 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.16438  hu=0.154997 hv=0.0278855
+    Edge flux h=0.000447151 hu=-0.00808916 hv=-3.39707
+  Edge 2 (-1 0 0) (-1 0.5 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 4
+    Opposite Tri QVar h=1.18654  hu=0 hv=0
+    Boundary flux h=-0.0340453 hu=-3.40447 hv=0.00123943
+
+Triangle 5 @0.482782
+  Area 0.125
+  Node positions (-0.5 0.5 0) (0 0 0) (-0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.21361 hu=0.343083 hv=-0.0861994
+  Edge 0 (-0.5 0.5 0) (0 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 1 5
+    Opposite Tri QVar h=1.24241  hu=0.297308 hv=-0.0887037
+    Edge flux h=0.104208 hu=3.74763 hv=3.69044
+  Edge 1 (0 0 0) (-0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.21166  hu=0.419278 hv=-0.110488
+    Edge flux h=0.0500246 hu=-0.0176346 hv=-3.59859
+  Edge 2 (-0.5 0 0) (-0.5 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 0 5
+    Opposite Tri QVar h=1.18825  hu=0.162989 hv=0.000540114
+    Edge flux h=-0.115804 hu=-3.49004 hv=-0.0305619
+
+Triangle 6 @0.482782
+  Area 0.125
+  Node positions (0 0.5 0) (0.5 0 0) (0 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.2911 hu=0.44867 hv=-0.164967
+  Edge 0 (0 0.5 0) (0.5 0 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 2 6
+    Opposite Tri QVar h=1.35618  hu=0.352019 hv=-0.124612
+    Edge flux h=0.0974683 hu=4.38238 hv=4.26489
+  Edge 1 (0.5 0 0) (0 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.30798  hu=0.444461 hv=-0.123405
+    Edge flux h=0.0642073 hu=0.0267807 hv=-4.16815
+  Edge 2 (0 0 0) (0 0.5 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 1 6
+    Opposite Tri QVar h=1.24241  hu=0.297308 hv=-0.0887037
+    Edge flux h=-0.163823 hu=-3.92185 hv=-0.015876
+
+Triangle 7 @0.482782
+  Area 0.125
+  Node positions (1 0.5 0) (1 0 0) (0.5 0 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.48994 hu=0.27541 hv=0.13393
+  Edge 0 (1 0.5 0) (1 0 0)
+    Normal (0.5 0 0)
+    Adj Triangles 7
+    Opposite Tri QVar h=1.48994  hu=0 hv=0
+    Boundary flux h=0.0688526 hu=5.59006 hv=0.0717573
+  Edge 1 (1 0 0) (0.5 0 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.44685  hu=0.187207 hv=-0.118029
+    Edge flux h=0.0171227 hu=0.0408106 hv=-5.16942
+  Edge 2 (0.5 0 0) (1 0.5 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 3 7
+    Opposite Tri QVar h=1.42842  hu=0.304379 hv=0.128341
+    Edge flux h=-0.049259 hu=-5.2525 hv=5.21801
+
+Triangle 8 @0.482782
+  Area 0.125
+  Node positions (-1 0 0) (-0.5 0 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.16438 hu=0.154997 hv=0.0278855
+  Edge 0 (-1 0 0) (-0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 4 8
+    Opposite Tri QVar h=1.18654  hu=0.136181 hv=0.00357759
+    Edge flux h=-0.000447151 hu=0.00808916 hv=3.39707
+  Edge 1 (-0.5 0 0) (-1 -0.5 0)
+    Normal (0.5 -0.5 0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.1636  hu=0.206608 hv=0.0333252
+    Edge flux h=0.0753978 hu=3.3139 hv=-3.32177
+  Edge 2 (-1 -0.5 0) (-1 0 0)
+    Normal (-0.5 0 0)
+    Adj Triangles 8
+    Opposite Tri QVar h=1.16438  hu=0 hv=0
+    Boundary flux h=-0.0387493 hu=-3.27132 hv=0.00946433
+
+Triangle 9 @0.482782
+  Area 0.125
+  Node positions (-0.5 0 0) (0 0 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.21166 hu=0.419278 hv=-0.110488
+  Edge 0 (-0.5 0 0) (0 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 5 9
+    Opposite Tri QVar h=1.21361  hu=0.343083 hv=-0.0861994
+    Edge flux h=-0.0500246 hu=0.0176346 hv=3.59859
+  Edge 1 (0 0 0) (0 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.24405  hu=0.362656 hv=-0.109399
+    Edge flux h=0.181335 hu=3.78428 hv=-0.0180068
+  Edge 2 (0 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.1762  hu=0.240919 hv=-0.0699115
+    Edge flux h=-0.104458 hu=-3.45311 hv=-3.50369
+
+Triangle 10 @0.482782
+  Area 0.125
+  Node positions (0 0 0) (0.5 0 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.30798 hu=0.444461 hv=-0.123405
+  Edge 0 (0 0 0) (0.5 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 6 10
+    Opposite Tri QVar h=1.2911  hu=0.44867 hv=-0.164967
+    Edge flux h=-0.0642073 hu=-0.0267807 hv=4.16815
+  Edge 1 (0.5 0 0) (0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.37508  hu=0.195201 hv=-0.131824
+    Edge flux h=0.128581 hu=4.57612 hv=-0.01123
+  Edge 2 (0.5 -0.5 0) (0 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.24405  hu=0.362656 hv=-0.109399
+    Edge flux h=-0.113721 hu=-4.00188 hv=-3.98775
+
+Triangle 11 @0.482782
+  Area 0.125
+  Node positions (0.5 0 0) (1 0 0) (1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.44685 hu=0.187207 hv=-0.118029
+  Edge 0 (0.5 0 0) (1 0 0)
+    Normal (-0 0.5 -0)
+    Adj Triangles 7 11
+    Opposite Tri QVar h=1.48994  hu=0.27541 hv=0.13393
+    Edge flux h=-0.0171227 hu=-0.0408106 hv=5.16942
+  Edge 1 (1 0 0) (1 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 11
+    Opposite Tri QVar h=1.44685  hu=0 hv=0
+    Boundary flux h=0.0468016 hu=5.22506 hv=-0.0585365
+  Edge 2 (1 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0.5 0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.37508  hu=0.195201 hv=-0.131824
+    Edge flux h=0.000132517 hu=-4.89215 hv=-4.87463
+
+Triangle 12 @0.482782
+  Area 0.125
+  Node positions (-0.5 0 0) (-0.5 -0.5 0) (-1 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.1636 hu=0.206608 hv=0.0333252
+  Edge 0 (-0.5 0 0) (-0.5 -0.5 0)
+    Normal (0.5 0 0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.1762  hu=0.240919 hv=-0.0699115
+    Edge flux h=0.106927 hu=3.36362 hv=0.0384846
+  Edge 1 (-0.5 -0.5 0) (-1 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 12
+    Opposite Tri QVar h=1.1636  hu=0 hv=0
+    Boundary flux h=-0.00833131 hu=0.0774355 hv=-3.30696
+  Edge 2 (-1 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 0.5 -0)
+    Adj Triangles 8 12
+    Opposite Tri QVar h=1.16438  hu=0.154997 hv=0.0278855
+    Edge flux h=-0.0753978 hu=-3.3139 hv=3.32177
+
+Triangle 13 @0.482782
+  Area 0.125
+  Node positions (-0.5 0 0) (0 -0.5 0) (-0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.1762 hu=0.240919 hv=-0.0699115
+  Edge 0 (-0.5 0 0) (0 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 9 13
+    Opposite Tri QVar h=1.21166  hu=0.419278 hv=-0.110488
+    Edge flux h=0.104458 hu=3.45311 hv=3.50369
+  Edge 1 (0 -0.5 0) (-0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 13
+    Opposite Tri QVar h=1.1762  hu=0 hv=0
+    Boundary flux h=0.0174779 hu=0.0982921 hv=-3.42027
+  Edge 2 (-0.5 -0.5 0) (-0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 12 13
+    Opposite Tri QVar h=1.1636  hu=0.206608 hv=0.0333252
+    Edge flux h=-0.106927 hu=-3.36362 hv=-0.0384846
+
+Triangle 14 @0.482782
+  Area 0.125
+  Node positions (0 0 0) (0.5 -0.5 0) (0 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.24405 hu=0.362656 hv=-0.109399
+  Edge 0 (0 0 0) (0.5 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 10 14
+    Opposite Tri QVar h=1.30798  hu=0.444461 hv=-0.123405
+    Edge flux h=0.113721 hu=4.00188 hv=3.98775
+  Edge 1 (0.5 -0.5 0) (0 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 14
+    Opposite Tri QVar h=1.24405  hu=0 hv=0
+    Boundary flux h=0.0273497 hu=0.165764 hv=-3.84435
+  Edge 2 (0 -0.5 0) (0 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 9 14
+    Opposite Tri QVar h=1.21166  hu=0.419278 hv=-0.110488
+    Edge flux h=-0.181335 hu=-3.78428 hv=0.0180068
+
+Triangle 15 @0.482782
+  Area 0.125
+  Node positions (0.5 0 0) (1 -0.5 0) (0.5 -0.5 0)
+  Triangle QVar [Q_bar, water column characteristics] h=1.37508 hu=0.195201 hv=-0.131824
+  Edge 0 (0.5 0 0) (1 -0.5 0)
+    Normal (0.5 0.5 -0)
+    Adj Triangles 11 15
+    Opposite Tri QVar h=1.44685  hu=0.187207 hv=-0.118029
+    Edge flux h=-0.000132517 hu=4.89215 hv=4.87463
+  Edge 1 (1 -0.5 0) (0.5 -0.5 0)
+    Normal (0 -0.5 0)
+    Adj Triangles 15
+    Opposite Tri QVar h=1.37508  hu=0 hv=0
+    Boundary flux h=0.032956 hu=0.0916867 hv=-4.69762
+  Edge 2 (0.5 -0.5 0) (0.5 0 0)
+    Normal (-0.5 -0 -0)
+    Adj Triangles 10 15
+    Opposite Tri QVar h=1.30798  hu=0.444461 hv=-0.123405
+    Edge flux h=-0.128581 hu=-4.57612 hv=0.01123
+
